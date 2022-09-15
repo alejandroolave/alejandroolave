@@ -1,0 +1,33 @@
+.destructor {
+    width: min-content;
+    right: auto;
+    margin: 18px;    
+}
+.sudamerica{
+    width: min-content;
+    right: auto;
+    margin: 18px;
+}
+.combat{
+    width: min-content;
+    right: auto;
+    margin: 18px;
+}
+.guerra{
+    width: min-content;
+    right: auto;
+    margin: 18px;
+}
+.confiencial{
+    width: min-content;
+    right: auto;
+    margin: 18px;
+}
+.gloria{
+    width: min-content;
+    right: auto;
+    margin: 18px;
+}
+h1, h2{
+    text-align: center;
+}
