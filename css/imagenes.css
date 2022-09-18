@@ -1,33 +1,17 @@
-.destructor {
-    width: min-content;
-    right: auto;
-    margin: 18px;    
+*{
+    /* background: red; */
+   background-color: rgb(88, 82, 82);
 }
-.sudamerica{
-    width: min-content;
-    right: auto;
-    margin: 18px;
+.block{
+    display: inline-block;
 }
-.combat{
-    width: min-content;
-    right: auto;
-    margin: 18px;
+/* ACCEDE A LAS IMAGENES QUE ESTÁN DENTRO DE BLOCK */
+.block img {
+    width: 600px;
+    height: 300px;
 }
-.guerra{
-    width: min-content;
-    right: auto;
-    margin: 18px;
-}
-.confiencial{
-    width: min-content;
-    right: auto;
-    margin: 18px;
-}
-.gloria{
-    width: min-content;
-    right: auto;
-    margin: 18px;
-}
-h1, h2{
+
+
+.centrado{
     text-align: center;
 }
