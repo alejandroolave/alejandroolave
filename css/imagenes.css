@@ -1,17 +1,27 @@
 *{
     /* background: red; */
-   background-color: rgb(88, 82, 82);
+   background-color: rgb(245, 240, 240);
 }
 .block{
     display: inline-block;
+    width: 28%;
+    margin: 30px 1.5%;
+    vertical-align: top;
+    border: 5px solid black;
+    
 }
-/* ACCEDE A LAS IMAGENES QUE ESTÁN DENTRO DE BLOCK */
+/* ACCEDE A LAS IMAGENES QUE ESTÁN DENTRO DE BLOCK  */
 .block img {
-    width: 600px;
-    height: 300px;
+    width: 510px;
+    height:300px;
+    padding:8px;
 }
-
 
 .centrado{
     text-align: center;
+}
+
+h1, h2, h3{
+    text-align: center;
+    
 }
