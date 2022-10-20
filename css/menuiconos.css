@@ -1,0 +1,13 @@
+.icon-style{
+    color: rgb(165, 165, 38);
+    font-size: 1,3em;
+    padding-right: 5px;
+}
+
+
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
