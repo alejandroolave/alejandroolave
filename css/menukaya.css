@@ -3,9 +3,11 @@
     font-size: 1,3em;
     padding-right: 5px;
 }
-   
+body{
+    background-color: rgba(68, 54, 54, 0.603);
+}   
 nav{
-    background-color: gainsboro;
+    background-color: rgb(243, 237, 237);
     position: fixed;
     top: 0%;
     left: 0%;
