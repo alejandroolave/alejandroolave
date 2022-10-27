@@ -1,11 +1,12 @@
 *{
-    padding: 0%;
-    margin: 0%;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 div{
-    margin: 30px;
+     /* margin: 30px;  */
     padding: 30px;
-    width: 250px;
+    width: 230px;
     display: inline-block;
     height: 250px;
 }
@@ -32,12 +33,8 @@ div{
     text-align: center;
     box-shadow: 20px 13px 10px aquamarine;
 }
-*{
-    padding: 0%;
-    margin: 0%;
-}
 div{
-    margin: 30px;
+    /* margin: 50px;  */
     padding: 30px;
     width: 250px;
     display: inline-block;
@@ -75,4 +72,21 @@ p{
     font-size: 1.5em; 
     text-align: justify;
     margin: 50px 80px;
+}
+.pp{
+    display: flex;
+    width: 100%;
+    height: 40px;
+    top: 0;
+    left: 0;
+    justify-content: right;
+    background-color: rgb(5, 5, 5);
+}
+li{
+    list-style: none;
+    margin: 10px;
+    font-size: 1.5em;
+    color: aliceblue;
+    text-align: center;
+    right: 15px;
 }
