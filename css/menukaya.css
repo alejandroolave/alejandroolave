@@ -31,6 +31,6 @@ a{
 }
 li:hover{
     background-color: rgb(200, 224, 224);
-    color: black;
+    color: rgb(85, 85, 85);
     height: 35px;
 }
