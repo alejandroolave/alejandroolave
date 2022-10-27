@@ -1,0 +1,78 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+div{
+    margin: 30px;
+    padding: 30px;
+    width: 250px;
+    display: inline-block;
+    height: 250px;
+}
+.posicionamiento1{
+    background-color: antiquewhite;
+    position: static;
+    text-align: center;
+    box-shadow: 20px 13px 10px antiquewhite;
+
+}
+.posicionamiento2{
+    background-color: darkcyan;
+    position: static;
+    text-align: center;
+    box-shadow: 20px 13px 10px darkcyan;
+}
+.posicionamiento3{
+    background-color: violet;
+    text-align: center;
+    box-shadow: 20px 13px 10px violet;
+}
+.posicionamiento4{
+    background-color: aquamarine;
+    text-align: center;
+    box-shadow: 20px 13px 10px aquamarine;
+}
+*{
+    padding: 0%;
+    margin: 0%;
+}
+div{
+    margin: 30px;
+    padding: 30px;
+    width: 250px;
+    display: inline-block;
+    height: 250px;
+}
+.box-1-fixed{
+    background-color: beige;
+    position: fixed;
+    bottom:  0;
+    right: 0;
+    box-shadow: 20px 13px 10px beige;
+
+}
+.box-2-fixed{
+    background-color: rgb(124, 124, 28);
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    padding: 35px;
+    margin: 8px;
+    box-shadow: 20px 13px 10px rgb(124,124,28);
+}
+.box-3-fixed{
+    position: fixed;
+    right: 0;
+    background-color: aqua;
+    top: 10em;
+    padding: 2px;
+    width: 50px;
+    box-shadow: 20px 13px 10px rgb(106, 108, 221);
+}
+
+
+p{
+    font-size: 1.5em; 
+    text-align: justify;
+    margin: 50px 80px;
+}
