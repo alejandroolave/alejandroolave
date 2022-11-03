@@ -1,0 +1,30 @@
+*{
+    height: 100px;
+}
+
+nav > ul{
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    right: 100%;
+}
+li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 40px;
+    background-color: rgb(255, 255, 255);
+    margin: 15px;
+    height: 29px;
+    cursor: pointer;
+    width: 150px;
+    text-align: center;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(146, 17, 17, 0.932);
+}
+button{
+  position: relative;
+  top: 740%;
+}
