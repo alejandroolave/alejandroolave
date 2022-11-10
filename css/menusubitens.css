@@ -1,30 +1,46 @@
+/*estilos generales*/
 *{
-    height: 100px;
+    margin: 0;
+    padding: 0;
 }
-
-nav > ul{
-    align-items: center;
-    font-family: 'Courier New', Courier, monospace;
-    right: 100%;
+nav{
+    font-size: 1.5em;
+    background-color: darkcyan;
 }
-li{
+nav ul{
     list-style: none;
-    display: inline-block;
-    margin-right: 40px;
-    background-color: rgb(255, 255, 255);
-    margin: 15px;
-    height: 29px;
-    cursor: pointer;
-    width: 150px;
-    text-align: center;
+    padding: 0;
+    display: table;
+    display: block;
+    position: absolute;
+    width: 100%;
+    background-color: darkcyan;
 }
-ul{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgba(146, 17, 17, 0.932);
+nav a{
+    text-decoration: none;
+    display: block;
+    padding: 0 3em;
+    color: white;
 }
-button{
-  position: relative;
-  top: 740%;
+/*menu  primer nivel*/
+nav > ul > li{
+    float: left;
+    width: 300px;
+    line-height: 70px;
+}
+nav li{
+    position: relative;
+}
+nav li li{
+    max-height: 0;
+    overflow: hidden;
+}
+nav li:hover > ul > li{
+    visibility: visible;
+    max-height: 400px;
+    overflow: visible;
+}
+nav ul ul ul{
+    left: 100%;
+    top: 0;
 }
