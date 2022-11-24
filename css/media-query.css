@@ -45,9 +45,9 @@
     line-height: 1.3em;
 }
 @media only screen and (max-width:1152px){
-   /* .main-menu{
+   .main-menu{
     display: none;
-    }*/
+    }
     .main-nav{
         position: fixed;
         margin-top: 0;
@@ -56,6 +56,7 @@
         background-color: rgb(45, 45, 45);
     }
     .main-menu{
+        display: none;
         background-color: rgba(99, 89, 89, 0.436);
         margin-top: 80px;
         padding: 0;
@@ -74,7 +75,11 @@
     .bar-menu {
         visibility: visible;
         color: rgb(255, 255, 255);
-    }     
+    }    
+    .main-menu-visible{
+        display: block;
+    }
+     
 }
 a{
     text-decoration: none;

@@ -1,10 +1,13 @@
-let barMenu = Document.getElementById("barmenu");
-let mainMenu = Document.getElementById("mainmenu");
+let barMenu = document.getElementById("labelM");
+let mainMenu = document.getElementById("mainMenu");
 
-barMenu.addEventListener("click",function(){
-    if mainMenu ,removeEventlistener.classlist.contains("main-menu")){
-
+barMenu.addEventListener("click",function() {
+    if (mainMenu.classList.contains("main-menu")){
+        mainMenu.classList.add("main-menu-visible")
+        mainMenu.classList.remove("main-menu");
     }
-    mainMenu.classlist.add("main-menu-visible");
-    mainMenu.classlist.remove("main-menu");
+    else {
+        mainMenu.classList.remove("main-menu-visible");
+        mainMenu.classList.add("main-menu");
+    }
 });
