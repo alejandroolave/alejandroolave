@@ -4,19 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/menusubitens.css">
     <title>Document</title>
+    <link rel="stylesheet" href="css/menusubitens.css">
 </head>
 <body>
+    <button id="btmenu" class="boton-menu">saludo</button>
     <nav>
         <ul>
-            <li>inicio</li>
-            <li>nosotros</li>
-            <li>contactenos</li>
-            <li>galeria</li>
+            <li class="menu"><a href="index.html">inicio</a></li>
+            <li id="we" class="menu"><a href="#">nosotros</a></li>
+            <li class="menu"><a href="#">contactenos</a>
+                <ul class="b1">
+                    <li class="menu"><a href="#">telefono</a></li>
+                    <li class="menu"><a href="#">direccion</a>
+                        <ul class="b1">
+                            <li class="menu"><a href="#">putumayo</a></li>
+                            <li class="menu"><a href="#">caqueta</a></li>
+                            <li class="menu"><a href="#">tolima</a></li>
+                            <li class="menu"><a href="#">cauca</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu"><a href="#">pqr</a>
+                </ul>
+            </li>
+            <li class="menu"><a href="#">ayuda</a></li>
         </ul>
-    </nav>
-    <button id="botonmenu" class="boton-menu">enviar</button>
-    <script src="js/menusubitens.js"></script>
+    </nav> 
 </body>
+<script src="html.subitens"></script>
 </html>
