@@ -1,0 +1,18 @@
+.box-1{
+    height: 350px;
+    width: 350px;
+    background-color: rgb(51, 255, 0);
+    transition: background-color 0.5s;
+}
+.box-1:hover{
+    background-color: rgb(66, 185, 185);
+}
+.box-2{
+    height: 350px;
+    width: 350px;
+    background-color: rgb(10, 10, 10);
+    transition: margin-left 3s;
+}
+.box-2:hover{
+    margin-left: 500px;
+}
