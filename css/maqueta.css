@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.box-header{
+    display: grid;
+    grid-template: "menu    royalcaribbean   buscar    ofertas  nuestros-barcos    destino   preparate    iniciar-seccion   lupa "50px
+                   "img     img              img       img      img                img       img          img               img  "1000px/
+                    100px   200px            200px     200px    300px              200px     1fr          500px             100px  ;
+}
+.menu{
+    grid-area: menu;
+    background-color: yellowgreen;
+}
+.royalcaribbean{
+    grid-area: royalcaribbean;
+    background-color: aqua;
+}
+.buscar{
+    grid-area: buscar;
+    background-color: rgb(77, 97, 97);
+}
+.ofertas{
+    grid-area: ofertas;
+    background-color: rgb(50, 148, 74);
+}
+.nuestros-barcos{
+    grid-area: nuestros-barcos;
+    background-color: rgb(255, 0, 242);
+}
+.destino{
+    grid-area: destino;
+    background-color: rgb(153, 184, 41);
+}
+.preparate{
+    grid-area: preparate;
+    background-color: rgb(168, 139, 11);
+}
+.iniciar-seccion{
+    grid-area: iniciar-seccion;
+    background-color: rgb(33, 88, 190);
+}
+.lupa{
+    grid-area: lupa;
+    background-color: rgb(99, 71, 202);
+}
+.img{
+    grid-area: img;
+    background-color: red;
+    background-image: url(../img/arcviajero.jpg);
+    background-repeat: no-repeat;
+}
