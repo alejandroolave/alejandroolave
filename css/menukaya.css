@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.icon-style{
+    color: rgb(165, 165, 38);
+    font-size: 1,3em;
+    padding-right: 5px;
+}
+body{
+    background-color: rgba(248, 246, 246, 0.603);
+}   
+nav{
+    background-color: rgb(243, 237, 237);
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 220px;
+    height: 100vh;
+    display: flex;
+}
+li{
+    list-style: none;
+    cursor: pointer;
+    margin: 38px 25px;
+}
+a{
+    text-decoration: none;
+
+}
+li:hover{   
+    background-color: rgb(200, 224, 224);
+    color: rgb(85, 85, 85);
+    height: 35px;
+}
