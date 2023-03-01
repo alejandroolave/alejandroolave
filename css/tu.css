@@ -1,0 +1,100 @@
+
+.fuente1{
+    display: flex;
+    margin-top: 15px;
+}
+.fuente2{
+    display: flex;
+    margin-top: 120px;
+}
+.fuente{
+    border: solid 1px;
+    margin-right: 50%;
+    text-align: center;
+    list-style: none;
+    margin-left: 800px;
+    border-radius: 40% 40% 45%;
+    box-shadow: 10px 15px 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5em;
+}
+.hora{
+    margin-left: 1100px;
+    list-style: none;
+    border: solid 2px;
+    margin-right: 120px;
+    text-align: center;
+    width: 390px;
+    height: 390px;
+    position: absolute;
+    box-shadow: 40px 30px 90px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: black;
+}
+.imagendereloj{
+    height: 362px;
+    width: 390px;
+}
+.gami{
+    margin-left: 200px;
+    list-style: none;
+    border: solid 2px rgb(218, 139, 218);
+    margin-right: 590px;
+    text-align: center;
+    width: 390px;
+    height: 399px;
+    background-color: rgb(187, 103, 187);
+    box-shadow: 40px 30px 60px violet;
+}
+.imagen2{
+    height: 380px;
+    width: 390px;
+}
+.disney{
+    margin-left: 500px;
+    border: solid 2px;
+    list-style: none;
+    text-align: center;
+    height: 399px;
+    width: 399px;
+}
+.imagendisney{
+    height: 381px;
+    width: 399px;
+}
+.netflix{
+    margin-left: 190px;
+    border: solid 2px;
+    list-style: none;
+    text-align: center;
+    height: 399px;
+    width: 399px;
+}
+.imagennetflix{
+    height: 379px;
+    width: 399px;
+}
+.color{
+    margin-left: 850px;
+    list-style: none;
+    border: solid 2px;
+    border-radius: 40%;
+    text-align: center;
+    margin-right: 950px;
+    font-size: 1.7em;
+    box-shadow: 10px 15px 25px;
+}
+.colo{
+    list-style: none;
+    margin-left: 670px;
+    margin-top: 50px;
+    border: solid 2px;
+    margin-right: 800px;
+    text-align: center;
+    height: 370px;
+    width: 370px;
+}
+.imagencolor{
+    height: 350px;
+    width: 370px;
+}
