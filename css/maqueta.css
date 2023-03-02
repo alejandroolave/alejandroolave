@@ -4,20 +4,106 @@
 }
 .box-header{
     display: grid;
+    width: 100%;
     grid-template: "menu    royalcaribbean   buscar    ofertas  nuestros-barcos    destino   preparate    iniciar-seccion   lupa "50px
                    "img     img              img       img      img                img       img          img               img  "900px/
-                    100px   200px            200px     200px    300px              200px     1fr          500px             100px ;
-                    
+                    100px   200px            200px     200px    200px              200px     1fr          400px             100px ;
 }
 .box-2{
     display: grid;
     grid-template: "imp     imp      imp       imp"800px;
+}
+.box-3{
+    display: grid;
+    grid-template: "imp     imp      imp       imp"800px;
+}
+.rb{
+    display: grid;
+    grid-template: "imp     imp      imp       imp"800px;
+}
+.box-5{
+    display: grid;
+    width: 100%;
+    justify-content: center;
+    margin-top: 40px;
+    grid-template-columns: repeat(4,300px);
+    grid-template-rows: repeat(1,50px);
+}
+.firstname{
+    width: 200px;
+    background-color: rgb(77, 97, 97);
+    text-align: center;
+    border-radius: 15%;
+    cursor: pointer;
+}
+.lastname{
+    width: 200px;
+    background-color: rgb(11, 211, 211);
+    text-align: center;
+    border-radius: 15%;
+    cursor: pointer;
+}
+.emailaddres{
+    width: 200px;
+    background-color: rgb(11, 211, 211);
+    text-align: center;
+    border-radius: 15%;
+    cursor: pointer;
+}
+.unitedstates{
+    width: 200px;
+    background-color: rgb(11, 211, 211);
+    text-align: center;
+    border-radius: 15%;
+    cursor: pointer;
+}
+
+.media{
+    height: 500px;
+    width: 1600px;
+    margin-left: 140px;
+    margin-top: -400px;
+    background-color: sandybrown;
+}
+.segundotitulo{
+    text-align: center;
+    margin-top: -600px;
+    font-size: 2.2em;
+}
+.imagencrucer{
+    height: 410px;
+    width: 410px;
+    margin-top: -200px;
+    margin-left: 100px;
+    background-color: aqua;
+}
+.crucer2{
+    height: 410px;
+    width: 410px;
+    margin-top: -200px;
+    margin-left: 10px;
+    background-color: black;
+}
+.crucer33{
+    height: 410px;
+    width: 410px;
+    margin-top: -200px;
+    margin-left: 10px;
+    background-color: antiquewhite;
+}
+.crucer4{
+    height: 410px;
+    width: 410px;
+    margin-top: -200px;
+    margin-left: 10px;
+    background-color: yellowgreen;
 }
 .barco1{
     height: 410px;
     width: 410px;
     margin-top: 50px;
     margin-left: 100px;
+    background-color: wheat;
 }
 .barco2{
     height: 410px;
@@ -25,6 +111,7 @@
     margin-top: 50px;
     position: absolute;
     margin-left: 520px;
+    background-color: tomato;
 }
 .barco3{
     height: 410px;
@@ -32,6 +119,7 @@
     margin-top: 50px;
     position: absolute;
     margin-left: 940px;
+    background-color: tan;
 }
 .barco4{
     height: 410px;
@@ -39,6 +127,7 @@
     margin-top: 50px;
     position: absolute;
     margin-left: 1360px;
+    background-color: sienna;
 }
 .menu{
     grid-area: menu;
@@ -117,7 +206,8 @@
 .img{
     grid-area: img;
     background-color: red;
-    background-image: url(../img/1.jpg);
+    background-image: url();
     background-repeat: no-repeat;
     height: 917px;
+    width: 100%;
 }
