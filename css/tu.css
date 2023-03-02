@@ -98,3 +98,364 @@
     height: 350px;
     width: 370px;
 }
+.span{
+    list-style: none;
+    margin-left: 807px;
+    text-align: center;
+    margin-top: 50px;
+    border: solid 2px;
+    border-radius: 50% 50% 50%;
+    margin-right: 900px;
+    font-size: 1.6em;
+    box-shadow: 10px 15px 25px;
+}
+.sam{
+    list-style: none;
+    margin-left: 670px;
+    margin-top: 50px;
+    border: solid 2px;
+    margin-right: 800px;
+    text-align: center;
+    height: 370px;
+    width: 370px;
+}
+.imagenspan{
+    height: 352px;
+    width: 370px;
+}
+.bo{
+    list-style: none;
+    margin-left: 807px;
+    text-align: center;
+    margin-top: 50px;
+    border: solid 2px;
+    border-radius: 50% 50% 50%;
+    margin-right: 900px;
+    font-size: 1.6em;
+    box-shadow: 10px 15px 25px;
+}
+.box{
+    list-style: none;
+    margin-left: 670px;
+    margin-top: 50px;
+    border: solid 2px;
+    margin-right: 800px;
+    text-align: center;
+    height: 370px;
+    width: 370px;
+}
+.imagenbox{
+    height: 352px;
+    width: 370px;
+}
+.imagen{
+    list-style: none;
+    margin-left: 800px;
+    text-align: center;
+    margin-top: 50px;
+    border: solid 2px;
+    border-radius: 50% 50% 50%;
+    margin-right: 900px;
+    font-size: 1.6em;
+    box-shadow: 10px 15px 25px;
+}
+.fuente3{
+    display: flex;
+    margin-top: 10px;
+}
+.buques{
+    list-style: none;
+    margin-left: 120px;
+    margin-top: 50px;
+    border: solid 2px;
+    margin-right: 700px;
+    text-align: center;
+    height: 370px;
+    width: 370px;
+}
+.imagenbuque{
+    height: 352px;
+    width: 370px;    
+}
+.conte{
+    list-style: none;
+    margin-left: 50px;
+    margin-top: 50px;
+    border: solid 2px;
+    margin-right: 240px;
+    text-align: center;
+    height: 370px;
+    width: 370px;
+}
+.imagencontainer{
+    height: 352px;
+    width: 370px;
+}
+.tabla{
+    list-style: none;
+    margin-left: 800px;
+    text-align: center;
+    margin-top: 50px;
+    border: solid 2px;
+    border-radius: 50% 50% 50%;
+    margin-right: 900px;
+    font-size: 1.6em;
+    box-shadow: 10px 15px 25px;   
+}
+.fuente4{
+    display: flex;
+    margin-top: 10px;
+}
+.tablas{
+    list-style: none;
+    margin-left: 120px;
+    margin-top: 50px;
+    border: solid 2px;
+    margin-right: 250px;
+    text-align: center;
+    height: 370px;
+    width: 370px; 
+}
+.imagentabla{
+    height: 352px;
+    width: 370px;
+}
+.tab{
+    list-style: none;
+    margin-left: 500px;
+    margin-top: 50px;
+    border: solid 2px;
+    margin-right: 170px;
+    text-align: center;
+    height: 370px;
+    width: 370px;
+}
+.celdas{
+    height: 352px;
+    width: 370px;
+}
+.for{
+    list-style: none;
+    margin-left: 800px;
+    text-align: center;
+    margin-top: 50px;
+    border: solid 2px;
+    border-radius: 50% 50% 50%;
+    margin-right: 900px;
+    font-size: 1.6em;
+    box-shadow: 10px 15px 25px;
+}
+.fuente5{
+    display: flex;
+    margin-top: 10px;
+}
+.formu{
+    list-style: none;
+    margin-left: 100px;
+    margin-top: 50px;
+    border: solid 2px;
+    margin-right: 170px;
+    text-align: center;
+    height: 370px;
+    width: 370px;
+}
+.imagenformu{
+    height: 352px;
+    width: 370px;
+}
+.inicioo{
+    list-style: none;
+    margin-left: 600px;
+    margin-top: 50px;
+    border: solid 2px;
+    margin-right: 170px;
+    text-align: center;
+    height: 370px;
+    width: 370px;
+}
+.imageninicio{
+    height: 352px;
+    width: 370px;
+}
+.men{
+    list-style: none;
+    margin-left: 800px;
+    text-align: center;
+    margin-top: 50px;
+    border: solid 2px;
+    border-radius: 50% 50% 50%;
+    margin-right: 900px;
+    font-size: 1.6em;
+    box-shadow: 10px 15px 25px;
+   
+}
+.fuente6{
+    display: flex;
+    margin-top: 10px;
+}
+.iconos{
+    list-style: none;
+    margin-left: 100px;
+    margin-top: 50px;
+    border: solid 2px;
+    margin-right: 170px;
+    text-align: center;
+    height: 370px;
+    width: 370px;
+    
+}
+.imagenicono{
+    height: 352px;
+    width: 370px;
+}
+.caya{
+    list-style: none;
+    margin-left: 600px;
+    margin-top: 50px;
+    border: solid 2px;
+    margin-right: 170px;
+    text-align: center;
+    height: 370px;
+    width: 370px;
+}
+.imagencalla{
+    height: 352px;
+    width: 370px;
+}
+.posi{
+    list-style: none;
+    margin-left: 800px;
+    text-align: center;
+    margin-top: 50px;
+    border: solid 2px;
+    border-radius: 80% 80% 80%;
+    margin-right: 900px;
+    font-size: 1.5em;
+    box-shadow: 20px 15px 25px;
+}
+.fuente7{
+    display: flex;
+    margin-top: 10px;
+}
+.ento{
+    list-style: none;
+    margin-left: 1px;
+    margin-top: 50px;
+    border: solid 2px;
+    margin-right: 170px;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+}
+.imagenposi{
+    height: 182px;
+    width: 200px;
+}
+.rela{
+    list-style: none;
+    margin-left: 2px;
+    margin-top: 50px;
+    border: solid 2px;
+    margin-right: 170px;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+}
+.imagenrelati{
+    list-style: none;
+    margin-left: 0px;
+    margin-top: 50px;
+    border: solid 2px;
+    margin-right: 170px;
+    text-align: center;
+    height: 130px;
+    width: 198px;
+}
+.meyu{
+    list-style: none;
+    margin-left: 1px;
+    margin-top: 50px;
+    border: solid 2px;
+    margin-right: 170px;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+}
+.imagencap{
+    height: 180px;
+    width: 200px;
+}
+.subi{
+    list-style: none;
+    margin-left: 2px;
+    margin-top: 50px;
+    border: solid 2px;
+    margin-right: 170px;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+}
+.suvi{
+    height: 200px;
+    width: 150px;
+}
+.trans{
+    list-style: none;
+    margin-left: 2px;
+    margin-top: 50px;
+    border: solid 2px;
+    margin-right: 170px;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+}
+.imagenth{
+    height: 180px;
+    width: 200px;
+}
+.fuente8{
+    display: flex;
+    margin-top: 10px;
+}
+.cayu{
+    list-style: none;
+    margin-left: 2px;
+    margin-top: 50px;
+    border: solid 2px;
+    margin-right: 170px;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+}
+.img2{
+    height: 180px;
+    width: 200px;
+}
+.calen{
+    list-style: none;
+    margin-left: 2px;
+    margin-top: 50px;
+    border: solid 2px;
+    margin-right: 170px;
+    text-align: center;
+    height: 200px;
+    width: 200px;   
+}
+.img4{
+    height: 180px;
+    width: 200px;
+}
+.maque{
+    list-style: none;
+    margin-left: 2px;
+    margin-top: 50px;
+    border: solid 2px;
+    margin-right: 170px;
+    text-align: center;
+    height: 200px;
+    width: 200px;      
+}
+.img9{
+    height: 180px;
+    width: 200px;
+}
