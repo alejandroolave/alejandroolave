@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.box-header{
+    display: grid;
+    grid-template: "menu    royalcaribbean   buscar    ofertas  nuestros-barcos    destino   preparate    iniciar-seccion   lupa "50px
+                   "img     img              img       img      img                img       img          img               img  "900px/
+                    100px   200px            200px     200px    300px              200px     1fr          500px             100px ;
+                    
+}
+.box-2{
+    display: grid;
+    grid-template: "imp     imp      imp       imp"800px;
+}
+.barco1{
+    height: 410px;
+    width: 410px;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.barco2{
+    height: 410px;
+    width: 410px;
+    margin-top: 50px;
+    position: absolute;
+    margin-left: 520px;
+}
+.barco3{
+    height: 410px;
+    width: 410px;
+    margin-top: 50px;
+    position: absolute;
+    margin-left: 940px;
+}
+.barco4{
+    height: 410px;
+    width: 410px;
+    margin-top: 50px;
+    position: absolute;
+    margin-left: 1360px;
+}
+.menu{
+    grid-area: menu;
+    background-color: yellowgreen;
+    text-align: center;
+    margin-left: 15px;
+    margin-left: 15px;
+    border-radius: 15%;
+    cursor: pointer;
+}
+.royalcaribbean{
+    grid-area: royalcaribbean;
+    background-color: aqua;
+    text-align: center;
+    margin-left: 15px;
+    border-radius: 15%;
+    cursor: pointer;
+}
+.buscar{
+    grid-area: buscar;
+    background-color: rgb(77, 97, 97);
+    text-align: center;
+    margin-left: 15px;
+    border-radius: 15%;
+    cursor: pointer;
+}
+.ofertas{
+    grid-area: ofertas;
+    background-color: rgb(50, 148, 74);
+    text-align: center;
+    margin-left: 15px;
+    border-radius: 15%;
+    cursor: pointer;
+}
+.nuestros-barcos{
+    grid-area: nuestros-barcos;
+    background-color: rgb(255, 0, 242);
+    text-align: center;
+    margin-left: 15px;
+    border-radius: 15%;
+    cursor: pointer;
+}
+.destino{
+    grid-area: destino;
+    background-color: rgb(122, 143, 47);
+    text-align: center;
+    margin-left: 15px;
+    border-radius: 15%;
+    cursor: pointer;
+}
+.preparate{
+    grid-area: preparate;
+    background-color: rgb(168, 139, 11);
+    text-align: center;
+    margin-left: 15px;
+    border-radius: 15%;
+    cursor: pointer;
+}
+.iniciar-seccion{
+    grid-area: iniciar-seccion;
+    background-color: rgb(33, 88, 190);
+    text-align: center;
+    margin-left: 15px;
+    border-radius: 15%;
+    cursor: pointer;
+}
+.lupa{
+    grid-area: lupa;
+    background-color: rgb(99, 71, 202);
+    text-align: center;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 15%;
+    cursor: pointer;
+}
+.img{
+    grid-area: img;
+    background-color: red;
+    background-image: url(../img/1.jpg);
+    background-repeat: no-repeat;
+    height: 917px;
+}
