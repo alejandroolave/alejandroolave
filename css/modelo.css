@@ -1,0 +1,37 @@
+ul{
+    list-style: none;
+}
+h1{
+    margin-left: 70px;
+    font-family: cursive;
+}
+.box-main{
+    margin: 0 70px;
+    display: grid;
+    grid-template:"img-box-main empty "/
+                    500px            1fr ;
+}
+.img-box-main{
+    display: grid;
+    grid-area: img-box-main;
+    height: 100vh;
+    grid-template:"img-box     img-box  img-box     img-box  img-box     img-box   img-box"490px
+                  "empty-0     empty-0  empty-0     empty-0  empty-0     empty-0   empty-0"30px
+                  "img-mini-1  empty-1  img-mini-2  empty-2  img-mini-3  empty-3   img-mini-4"130px/
+                   90px        25px     90px        25px     90px        25px      90px            ;
+}
+.img-box{
+    grid-area: img-box;
+}
+.img-mini-1{
+    grid-area: img-mini-1;
+}
+.img-mini-2{
+    grid-area: img-mini-2;
+}
+.img-mini-3{
+    grid-area: img-mini-3;
+}
+.img-mini-4{
+    grid-area: img-mini-4;
+}
