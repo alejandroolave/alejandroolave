@@ -17,5 +17,5 @@ imgMini3.addEventListener("click",function(){
 });
 
 imgMini4.addEventListener("click",function(){
-    imgbox.setAttribute("src","img/moto-4.png");
+    imgbox.setAttribute("src","img/pulsarmania.jpg");
 });

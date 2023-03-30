@@ -1,9 +1,13 @@
+body{
+    background-color: rgb(0, 0, 0);
+}
 ul{
     list-style: none;
 }
 h1{
     margin-left: 70px;
     font-family: cursive;
+    color: blue;
 }
 .box-main{
     margin: 0 70px;
@@ -17,27 +21,40 @@ h1{
     height: 100vh;
     grid-template:"img-box     img-box  img-box     img-box  img-box     img-box   img-box"435px
                   "empty-0     empty-0  empty-0     empty-0  empty-0     empty-0   empty-0"30px
-                  "img-mini-1  empty-1  img-mini-2  empty-2  img-mini-3  empty-3   img-mini-4"130px/
-                   90px        25px     90px        25px     90px        25px      90px            ;
+                  "box-img1    empty-1  box-img2    empty-2  box-img3    empty-3   box-img4"130px/
+                   90px        25px     90px        65px     90px        35px      90px            ;
 }
+img{
+    border: solid 2px black;
+    border-radius: 15px;
+}
+
 .img-box{
     grid-area: img-box;
     width: 100%;
+    margin-top: 40px;
 }
-.img-mini-1{
-    grid-area: img-mini-1;
-    width: 120%;
+.img-mini{
+    width: 100%;
+    margin-top: 50px;
+}
+.box-img1{
+    grid-area: box-img1;
+    margin-top: 50px;
+}
 
+.box-img2{
+    grid-area: box-img2;
+    width: 150%;
+    margin-top: 50px;
 }
-.img-mini-2{
-    grid-area: img-mini-2;
-    width: 120%;
+.box-img3{
+    grid-area: box-img3;
+    margin-top: 50px;
 }
-.img-mini-3{
-    grid-area: img-mini-3;
-    width: 120%;
-}
-.img-mini-4{
-    grid-area: img-mini-4;
-    width: 120%;
+
+.box-img4{
+    grid-area: box-img4;
+    width: 110%;
+    margin-top: 50px;
 }
