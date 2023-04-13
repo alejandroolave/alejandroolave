@@ -1,11 +1,14 @@
+*{
+    font-family: tahoma,sans-serif;
+}
 body{
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(247, 239, 239);
 }
 ul{
     list-style: none;
 }
 h1{
-    margin-left: 70px;
+    margin-left: 520px;
     font-family: cursive;
     color: blue;
 }
@@ -57,4 +60,69 @@ img{
     grid-area: box-img4;
     width: 110%;
     margin-top: 50px;
+}
+.imgpulsar{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    margin-top: -0.5em;
+    border-radius: 10px;
+}
+.boton1{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(239, 120, 0);
+    align-items: center;
+    text-align: center;
+    font-size: 2.4em;
+    margin-left: 80px;
+    margin-top: 470px;
+    border-top-left-radius: 10px ;
+    border-bottom-left-radius: 10px;
+    cursor: pointer;
+}
+.boton2{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(239, 120, 0);
+    align-items: center;
+    text-align: center;
+    font-size: 2.3em;
+    margin-left: 140px;
+    margin-top: -50px;
+}
+.boton3{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(239, 120, 0);
+    align-items: center;
+    text-align: center;
+    font-size: 2.4em;
+    margin-left: 200px;
+    margin-top: -50px;
+    border-top-right-radius: 10px ;
+    border-bottom-right-radius: 10px;
+    cursor: pointer;
+}
+.boton4{
+    width: 400px;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(239, 120, 0);
+    align-items: center;
+    text-align: center;
+    font-size: 2.4em;
+    margin-left: 270px;
+    margin-top: -50px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+}
+.imgcarii{
+    height: 35px;
+    width: 53px;
+    border: none;
 }
