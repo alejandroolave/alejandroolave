@@ -478,6 +478,7 @@ img:hover {
     transform: scale(1.2);
     border-radius: 1.1em;
     box-shadow: 30px 30px 25px;
+<<<<<<< HEAD
 }
 .img20{
     list-style: none;
@@ -489,3 +490,6 @@ img:hover {
     height: 200px;
     width: 190px;
 }
+=======
+  }
+>>>>>>> 6121eb4de82dc5924d36d405448cc1827e1809cc

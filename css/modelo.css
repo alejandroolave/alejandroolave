@@ -2,13 +2,21 @@
     font-family: tahoma,sans-serif;
 }
 body{
+<<<<<<< HEAD
     background-color: rgb(0, 0, 0);
+=======
+    background-color: rgb(229, 0, 0);
+>>>>>>> 6121eb4de82dc5924d36d405448cc1827e1809cc
 }
 ul{
     list-style: none;
 }
 h1{
+<<<<<<< HEAD
     margin-left: 700px;
+=======
+    margin-left: 520px;
+>>>>>>> 6121eb4de82dc5924d36d405448cc1827e1809cc
     font-family: cursive;
     color: blue;
 }
