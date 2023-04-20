@@ -30,28 +30,29 @@
     grid-template-rows: repeat(1,50px);
 }
 .firstname{
-    width: 200px;
+    margin-right: 20px;
+    width: 250px;
     background-color: rgb(77, 97, 97);
     text-align: center;
     border-radius: 15%;
     cursor: pointer;
 }
 .lastname{
-    width: 200px;
+    width: 250px;
     background-color: rgb(11, 211, 211);
     text-align: center;
     border-radius: 15%;
     cursor: pointer;
 }
 .emailaddres{
-    width: 200px;
+    width: 250px;
     background-color: rgb(11, 211, 211);
     text-align: center;
     border-radius: 15%;
     cursor: pointer;
 }
 .unitedstates{
-    width: 200px;
+    width: 250px;
     background-color: rgb(11, 211, 211);
     text-align: center;
     border-radius: 15%;
@@ -59,16 +60,16 @@
 }
 
 .media{
-    height: 500px;
-    width: 1600px;
+    height: 600px;
+    width: 1700px;
     margin-left: 140px;
     margin-top: -400px;
     background-color: sandybrown;
 }
 .segundotitulo{
     text-align: center;
-    margin-top: -600px;
-    font-size: 2.2em;
+    margin-top: -440px;
+    font-size: 2.7em;
 }
 .imagencrucer{
     height: 410px;
@@ -205,9 +206,24 @@
 }
 .img{
     grid-area: img;
-    background-color: red;
+    background-color: rgb(71, 56, 56);
     background-image: url();
     background-repeat: no-repeat;
-    height: 917px;
+    height: 717px;
     width: 100%;
+}
+@media only screen and (max-width:1300px ){
+    .box-header{
+        display: grid;
+        grid-template:"menu    royalcaribbean   buscar    ofertas  nuestros-barcos    destino   preparate    iniciar-seccion   lupa "100px/
+                               50px             1fr       1fr      1fr                1fr       1fr          1fr               1fr    1fr ; 
+    }
+}
+.img{
+    background-color: rgb(116, 161, 131);
+    height: -100px;
+    width: 700px;
+    align-items: center;
+    margin-left: 45px;
+    
 }

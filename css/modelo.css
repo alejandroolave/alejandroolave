@@ -1,0 +1,128 @@
+*{
+    font-family: tahoma,sans-serif;
+}
+body{
+    background-color: rgb(0, 0, 0);
+}
+ul{
+    list-style: none;
+}
+h1{
+    margin-left: 700px;
+    font-family: cursive;
+    color: blue;
+}
+.box-main{
+    margin: 0 70px;
+    display: grid;
+    grid-template:"img-box-main empty "/
+                    435px       1fr ;
+}
+.img-box-main{
+    display: grid;
+    grid-area: img-box-main;
+    height: 100vh;
+    grid-template:"img-box     img-box  img-box     img-box  img-box     img-box   img-box"435px
+                  "empty-0     empty-0  empty-0     empty-0  empty-0     empty-0   empty-0"30px
+                  "box-img1    empty-1  box-img2    empty-2  box-img3    empty-3   box-img4"130px/
+                   90px        25px     90px        65px     90px        35px      90px            ;
+}
+img{
+    border: solid 2px black;
+    border-radius: 15px;
+}
+
+.img-box{
+    grid-area: img-box;
+    width: 100%;
+    margin-top: 40px;
+}
+.img-mini{
+    width: 100%;
+    margin-top: 50px;
+}
+.box-img1{
+    grid-area: box-img1;
+    margin-top: 50px;
+}
+
+.box-img2{
+    grid-area: box-img2;
+    width: 150%;
+    margin-top: 50px;
+}
+.box-img3{
+    grid-area: box-img3;
+    margin-top: 50px;
+}
+
+.box-img4{
+    grid-area: box-img4;
+    width: 110%;
+    margin-top: 50px;
+}
+.imgpulsar{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    margin-top: -0.5em;
+    border-radius: 10px;
+}
+.boton1{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(239, 120, 0);
+    align-items: center;
+    text-align: center;
+    font-size: 2.4em;
+    margin-left: 80px;
+    margin-top: 470px;
+    border-top-left-radius: 10px ;
+    border-bottom-left-radius: 10px;
+    cursor: pointer;
+}
+.boton2{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(239, 120, 0);
+    align-items: center;
+    text-align: center;
+    font-size: 2.3em;
+    margin-left: 140px;
+    margin-top: -50px;
+}
+.boton3{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(239, 120, 0);
+    align-items: center;
+    text-align: center;
+    font-size: 2.4em;
+    margin-left: 200px;
+    margin-top: -50px;
+    border-top-right-radius: 10px ;
+    border-bottom-right-radius: 10px;
+    cursor: pointer;
+}
+.boton4{
+    width: 400px;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(239, 120, 0);
+    align-items: center;
+    text-align: center;
+    font-size: 2.4em;
+    margin-left: 270px;
+    margin-top: -50px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+}
+.imgcarii{
+    height: 35px;
+    width: 53px;
+    border: none;
+}
