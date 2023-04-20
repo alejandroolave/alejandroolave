@@ -3,14 +3,12 @@
 }
 body{
     background-color: rgb(0, 0, 0);
-    background-color: rgb(229, 0, 0);
 }
 ul{
     list-style: none;
 }
 h1{
-    margin-left: 700px;
-    margin-left: 520px;
+    margin-left: 800px;
 
     font-family: cursive;
     color: blue;
@@ -75,7 +73,7 @@ img{
     width: 50px;
     height: 50px;
     background-color: rgb(255, 255, 255);
-    color: rgb(239, 120, 0);
+    color: blue;
     align-items: center;
     text-align: center;
     font-size: 2.4em;
@@ -89,7 +87,7 @@ img{
     width: 50px;
     height: 50px;
     background-color: rgb(255, 255, 255);
-    color: rgb(239, 120, 0);
+    color: blue;
     align-items: center;
     text-align: center;
     font-size: 2.3em;
@@ -100,7 +98,7 @@ img{
     width: 50px;
     height: 50px;
     background-color: rgb(255, 255, 255);
-    color: rgb(239, 120, 0);
+    color: blue;
     align-items: center;
     text-align: center;
     font-size: 2.4em;
@@ -114,7 +112,7 @@ img{
     width: 400px;
     height: 50px;
     background-color: rgb(255, 255, 255);
-    color: rgb(239, 120, 0);
+    color: blue;
     align-items: center;
     text-align: center;
     font-size: 2.4em;
@@ -125,7 +123,22 @@ img{
     font-family: 'Times New Roman', Times, serif;
 }
 .imgcarii{
+     background-color: blue;
     height: 35px;
     width: 53px;
     border: none;
+}
+.boton5{
+    width: 200px;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    color: blue;
+    align-items: center;
+    text-align: center;
+    font-size: 2.4em;
+    margin-left: 690px;
+    margin-top: -50px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
 }

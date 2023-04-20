@@ -23,7 +23,9 @@ imgMini4.addEventListener("click", function () {
 let boton1 = document.getElementById("obj1");
 let boton2 = document.getElementById("obj2");
 let boton3 = document.getElementById("obj3");
+let boton5 = document.getElementById("obj5");
 let click = 1;
+let precio = 10000000;
 boton1.addEventListener("click", function () {
     if (click == 1) {
         boton2.innerHTML = click = 1;;
@@ -31,6 +33,9 @@ boton1.addEventListener("click", function () {
     } else {
         click = click - 1;
         boton2.innerHTML = click;
+         precio = precio - 12000000; 
+        precioTotal = new Intl.NumberFormat().format(precio);
+        boton5.innerHTML = precioTotal;
     }
 
 
@@ -38,12 +43,17 @@ boton1.addEventListener("click", function () {
 boton3.addEventListener("click", function () {
     if (click == 10) {
         boton2.innerHTML = click = 10;
-        
+
     } else {
         click = click + 1;
         boton2.innerHTML = click;
+        precio = precio + 12000000; 
+        precioTotal = new Intl.NumberFormat().format(precio);
+        boton5.innerHTML = precioTotal;
     }
 });
+
+
 
 
 
