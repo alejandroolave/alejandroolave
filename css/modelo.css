@@ -2,7 +2,7 @@
     font-family: tahoma,sans-serif;
 }
 body{
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
 }
 ul{
     list-style: none;
@@ -72,7 +72,7 @@ img{
 .boton1{
     width: 50px;
     height: 50px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(218, 218, 218);
     color: blue;
     align-items: center;
     text-align: center;
@@ -82,12 +82,13 @@ img{
     border-top-left-radius: 10px ;
     border-bottom-left-radius: 10px;
     cursor: pointer;
+    
 }
 .boton2{
     width: 50px;
     height: 50px;
-    background-color: rgb(255, 255, 255);
-    color: blue;
+    background-color: rgb(218, 218, 218);
+    color: rgb(0, 0, 0);
     align-items: center;
     text-align: center;
     font-size: 2.3em;
@@ -97,8 +98,8 @@ img{
 .boton3{
     width: 50px;
     height: 50px;
-    background-color: rgb(255, 255, 255);
-    color: blue;
+    background-color: rgb(218, 218, 218);
+    color: rgb(0, 0, 209);
     align-items: center;
     text-align: center;
     font-size: 2.4em;
@@ -111,8 +112,8 @@ img{
 .boton4{
     width: 400px;
     height: 50px;
-    background-color: rgb(255, 255, 255);
-    color: blue;
+    background-color: rgb(218, 218, 218);
+    color: rgb(0, 0, 0);
     align-items: center;
     text-align: center;
     font-size: 2.4em;
@@ -120,7 +121,7 @@ img{
     margin-top: -50px;
     border-radius: 20px;
     cursor: pointer;
-    font-family: 'Times New Roman', Times, serif;
+    font-family :'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .imgcarii{
      background-color: blue;
@@ -131,14 +132,15 @@ img{
 .boton5{
     width: 200px;
     height: 50px;
-    background-color: rgb(255, 255, 255);
-    color: blue;
+    background-color: rgb(218, 218, 218);
+    color: rgb(0, 0, 8);
     align-items: center;
     text-align: center;
     font-size: 2.4em;
-    margin-left: 690px;
-    margin-top: -50px;
+    margin-left: 80px;
+    position: absolute;
+    margin-top: -80px;
     border-radius: 20px;
     cursor: pointer;
-    font-family: 'Times New Roman', Times, serif;
+    font-family :'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
