@@ -4,45 +4,49 @@ let imgMini2 = document.getElementById("imgMini2");
 let imgMini3 = document.getElementById("imgMini3");
 let imgMini4 = document.getElementById("imgMini4");
 
-imgMini1.addEventListener("click",function(){
-    imgbox.setAttribute("src","img/moto-1.jpg");
+imgMini1.addEventListener("click", function () {
+    imgbox.setAttribute("src", "img/moto-1.jpg");
 });
 
-imgMini2.addEventListener("click",function(){
-    imgbox.setAttribute("src","img/moto-2.png");
+imgMini2.addEventListener("click", function () {
+    imgbox.setAttribute("src", "img/moto-2.png");
 });
 
-imgMini3.addEventListener("click",function(){
-    imgbox.setAttribute("src","img/moto-3.jpg");
+imgMini3.addEventListener("click", function () {
+    imgbox.setAttribute("src", "img/moto-3.jpg");
 });
 
-imgMini4.addEventListener("click",function(){
-    imgbox.setAttribute("src","img/pulsarmania.jpg");
+imgMini4.addEventListener("click", function () {
+    imgbox.setAttribute("src", "img/pulsarmania.jpg");
 });
-
 
 let boton1 = document.getElementById("obj1");
-boton1.addEventListener("click",function(){
-    alert("hola soy el boton de restar...");
-});
 let boton2 = document.getElementById("obj2");
-boton2.addEventListener("click",function(){
-    alert("holis....");
-});
 let boton3 = document.getElementById("obj3");
-let numeroelementos = document.getElementById("numeroelementos").innerHTML;
-boton3.addEventListener("click",function(){
-       let numeroelementostxt = document.getElementById("numeroelementos").innerHTML;
-        
-       let numeroelementosInt = parseInt(numeroelementostxt);
-    
-       let totalelementosInt = numeroelementosInt +1;
-    
-       let totalelementostxt =totalelementosInt.toString();
-    
-       numeroelementos.innerHTML = totalelementostxt;
-    alert(numeroelementos);
+let click = 1;
+boton1.addEventListener("click", function () {
+    if (click == 1) {
+        boton2.innerHTML = click = 1;;
+
+    } else {
+        click = click - 1;
+        boton2.innerHTML = click;
+    }
+
+
 });
+boton3.addEventListener("click", function () {
+    if (click == 10) {
+        boton2.innerHTML = click = 10;
+        
+    } else {
+        click = click + 1;
+        boton2.innerHTML = click;
+    }
+});
+
+
+
 
 
 
