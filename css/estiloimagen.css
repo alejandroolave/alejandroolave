@@ -24,20 +24,15 @@
 .imgastro{
     grid-area: imgastro;
     width: 1600px;
-<<<<<<< HEAD
+
     height: 630px;
-=======
     height: 550px;
->>>>>>> 37b8bb67d5f80c2cd109700c6da2ebeacc864b00
 }
 .namber1{
     list-style: none;
     font-family: cursive;
-<<<<<<< HEAD
     margin-left: 10.1em;
-=======
     margin-left: 10.5em;
->>>>>>> 37b8bb67d5f80c2cd109700c6da2ebeacc864b00
     margin-top: 1.2em;
 }
 .img1{
@@ -97,26 +92,20 @@
     font-family: cursive;
     position: absolute;
     margin-top: 0.8em;
-<<<<<<< HEAD
     margin-left: 21.6em;
     cursor: pointer;
     color: aliceblue;
     text-shadow: 3px 4px 5px blue;
-=======
     margin-left: 21.5em;
     cursor: pointer;
     color: aliceblue;
->>>>>>> 37b8bb67d5f80c2cd109700c6da2ebeacc864b00
 }
 .che{
     position: absolute;
     width: 100px;
     margin-left: 0.2em;
     font-family: cursive;
-<<<<<<< HEAD
     cursor: pointer;
-=======
->>>>>>> 37b8bb67d5f80c2cd109700c6da2ebeacc864b00
 }
 .l2{
     list-style: none;
@@ -126,20 +115,14 @@
     margin-left: 31.5em;
     cursor: pointer;
     color: aliceblue;
-<<<<<<< HEAD
     text-shadow: 3px 4px 5px blue;
-=======
->>>>>>> 37b8bb67d5f80c2cd109700c6da2ebeacc864b00
 }
 .cho{
     position: absolute;
     width: 140px;
     margin-left: 8.8em;
     margin-top: 0.6em;
-<<<<<<< HEAD
     cursor: pointer;
-=======
->>>>>>> 37b8bb67d5f80c2cd109700c6da2ebeacc864b00
 }
 .l3{
     list-style: none;
@@ -149,10 +132,7 @@
     margin-left: 40.3em;
     cursor: pointer;
     color: aliceblue;
-<<<<<<< HEAD
     text-shadow: 3px 4px 5px blue;
-=======
->>>>>>> 37b8bb67d5f80c2cd109700c6da2ebeacc864b00
 }
 .l4{
     list-style: none;
@@ -162,10 +142,7 @@
     margin-left: 50.8em;
     cursor: pointer;
     color: aliceblue;
-<<<<<<< HEAD
     text-shadow: 3px 4px 5px blue;
-=======
->>>>>>> 37b8bb67d5f80c2cd109700c6da2ebeacc864b00
 }
 .l5{
     list-style: none;
@@ -175,10 +152,7 @@
     margin-left: 67.6em;
     cursor: pointer;
     color: aliceblue;
-<<<<<<< HEAD
     text-shadow: 3px 4px 5px blue;
-=======
->>>>>>> 37b8bb67d5f80c2cd109700c6da2ebeacc864b00
 }
 .l6{
     list-style: none;
@@ -188,7 +162,6 @@
     margin-left: 75.6em;
     cursor: pointer;
     color: aliceblue;
-<<<<<<< HEAD
     text-shadow: 3px 4px 5px blue;
 }
 .img10{
@@ -228,11 +201,9 @@
     margin-top: 0.0em;
     border-radius: 72px;
     cursor: pointer;
-=======
 }
 .img10{
     background-color: black;
     width: 110px;
     margin-left: 90.0em;
->>>>>>> 37b8bb67d5f80c2cd109700c6da2ebeacc864b00
 }
