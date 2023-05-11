@@ -196,8 +196,8 @@
 }
 .img10{
     background-color: black;
-    width: 110px;
-    margin-left: 90.0em;
+    width: 100px;
+    margin-left: 91.0em;
 }
 .principal{
     position: relative;
@@ -215,7 +215,8 @@
     align-items: center;
     justify-content: center;
     position: relative;
-    margin-top: 15.2em;
+    margin-top: 18.2em;
+    margin-left: 0.4em;
 
 }
 .flechaderecha .f1,.flechaizquierda .f2 {
@@ -236,7 +237,7 @@
 .slider{
     width: 299.99%;
     display: flex;
-    margin-top: 1.0em;
+    margin-top: 0.8em;
 }
 .slider .imgcarro{
     width: 33.333%;
