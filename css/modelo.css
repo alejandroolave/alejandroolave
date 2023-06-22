@@ -22,7 +22,7 @@ h1{
 .img-box-main{
     display: grid;
     grid-area: img-box-main;
-    height: 100vh;
+    height: 90vh;
     grid-template:"img-box     img-box  img-box     img-box  img-box     img-box   img-box"435px
                   "empty-0     empty-0  empty-0     empty-0  empty-0     empty-0   empty-0"30px
                   "box-img1    empty-1  box-img2    empty-2  box-img3    empty-3   box-img4"130px/
@@ -130,23 +130,28 @@ img{
     border: none;
 }
 .boton5{
-    width: 200px;
-    height: 50px;
+    width: 250px;
+    height: 80px;
+    box-shadow: 10px 5px 20px blue;
     background-color: rgb(218, 218, 218);
-    color: rgb(0, 0, 8);
+    color: rgb(14, 14, 149);
     align-items: center;
     text-align: center;
-    font-size: 2.4em;
-    margin-left: 80px;
+    font-size: 2.7em;
+    margin-left: 220px;
     position: absolute;
-    margin-top: -80px;
-    border-radius: 20px;
+    margin-top: -155px;
+    border-radius: 30px;
     cursor: pointer;
     font-family :'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .titulo{
-    margin-left: 500px;
-    margin-top: -390px;
-    font-size: 1.2em;
-    text-align: justify;
+    width: 200px;
+    position: relative;
+    top: 55%;
+    left: 13.5%;
+    text-shadow: 4px 10px 10px  black;
+    margin-bottom: -80px;
+    margin-top: -50px;
+    font-size: 2.2em;
 }

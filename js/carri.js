@@ -33,7 +33,7 @@ boton1.addEventListener("click", function () {
     } else {
         click = click - 1;
         boton2.innerHTML = click;
-         precio = precio - 12000000; 
+         precio = precio - 10000000; 
         precioTotal = new Intl.NumberFormat().format(precio);
         boton5.innerHTML = precioTotal;
     }
