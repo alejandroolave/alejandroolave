@@ -189,3 +189,72 @@
     height: 750px;
     width: 700px;
 }
+.cajas{
+    display: flex;
+    gap: 30px;
+    margin-left: 140px;
+}
+.caja1{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(204, 189, 189);
+}
+.g1{
+    width: 200px;
+    cursor: pointer;
+}
+.caja2{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(204, 189, 189);
+}
+.g2{
+    width: 200px;
+    cursor: pointer;
+}
+.caja3{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(204, 189, 189);
+}
+.g3{
+    width: 200px;
+    cursor: pointer;
+}
+.caja4{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(204, 189, 189);
+}
+.g4{
+    width: 200px;
+    cursor: pointer;
+}
+.caja5{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(204, 189, 189);
+}
+.g5{
+    width: 200px;
+    cursor: pointer;
+}
+.caja6{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(204, 189, 189);
+}
+.g6{
+    width: 200px;
+    cursor: pointer;
+}
+.caja7{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(204, 189, 189);
+}
+.g7{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(204, 189, 189);
+}
