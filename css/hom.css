@@ -85,7 +85,7 @@
     display: grid;
     grid-template: "empty-left  main-nav    empty-right"
                    "empty-left  imgastro    empty-right"/
-                    1fr         1500px      1fr;
+                    1fr         1400px      1fr;
 }
 .main-nav{
     grid-area: main-nav;
@@ -191,7 +191,7 @@
 }
 .cajas{
     display: flex;
-    gap: 30px;
+    gap: 35px;
     margin-left: 140px;
 }
 .caja1{
@@ -255,6 +255,6 @@
 }
 .g7{
     width: 200px;
-    height: 200px;
+    height: 216px;
     background-color: rgb(204, 189, 189);
 }
