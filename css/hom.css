@@ -258,3 +258,112 @@
     height: 216px;
     background-color: rgb(204, 189, 189);
 }
+img:hover {
+    transform: scale(1.2);
+    border-radius: 1.1em;
+    box-shadow: 30px 30px 25px;
+}
+.logito{
+    display: none;
+}
+.lupa{
+    display: none;
+    
+}
+.b10{
+    display: none;
+}
+@media only screen and (max-width:1300px) {
+    .barra1{
+        background-color: aqua;
+        display: none;
+    }
+    .barra3{
+        width: 100%;
+        background-color: aqua;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .img1{
+        display: none;
+    }
+    .logito{
+        width: 50px;
+        display: flex;
+        margin-left: 45px;
+    }
+    .b2{
+        display: none;
+    }
+    .infou{
+        display: none;
+        
+    }
+    .lupa{
+        width: 35px;
+        display: flex;
+    }
+    .promo{
+        display: none;
+    }
+    .mi{
+        position: absolute;
+        margin-left: 50px;
+        margin-top: 5px;
+    }
+    .carrito{
+        position: absolute;
+        margin-left: 50px;
+        margin-top: 15px;
+    }
+    .loca{
+        position: absolute;
+        margin-left: 35px;
+        margin-top: 20px;
+    }
+    .lupa{
+        position: absolute;
+        margin-left: 15px;
+        margin-top: 10px;
+    }
+    .logito{
+        position: absolute;
+        margin-left: -25px;
+        margin-top: 7px;
+    }
+    .fe{
+        width: 520px;
+        font-size: 1.0em;
+        margin: -20px;
+    }
+    .imgcarro{
+        width: 100%;
+        height: 100%;
+        margin-top: 15px;
+
+    }
+    .f2{
+        width: 100px;
+        position: absolute;
+        margin-top: -200px;
+        margin-left: -30px;
+    }
+    .f1{
+        width: 100px;
+        position: absolute;
+        margin-top: -191px;
+        margin-left: -35px;
+    }
+    .cajas div{
+        background-color: aqua;
+        width: 100px;
+        margin-bottom: 30px;
+
+    }
+    .cajas{
+        display: block;
+    }
+    
+    
+}
