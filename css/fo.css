@@ -1,0 +1,29 @@
+.principal{
+    position: absolute;
+    margin-left: 150px;
+}
+.f8{
+    width: 400px;
+    margin-top: 400px;
+    margin-left: 180px;
+}
+.titulo{
+    margin-left: 270px;
+    font-family: cursive;
+    position: absolute;
+    margin-top: 550px;
+    color: white;
+}
+.b3{
+    position: absolute;
+    margin-top: -200px;
+    margin-left: 1000px;
+    font-family: cursive;
+    color: white;
+}
+.f7{
+    width: 400px;
+
+    margin-left: 900px;
+    margin-top: -520px;
+}

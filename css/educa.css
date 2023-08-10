@@ -1,5 +1,6 @@
 body{
     background-image: url(../img/mifondo.jpg);
+    background-repeat: no-repeat;
 }
 .portafolio{
     background-color: aqua;
