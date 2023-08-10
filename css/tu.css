@@ -454,7 +454,8 @@
     margin-right: 170px;
     text-align: center;
     height: 200px;
-    width: 200px;      
+    width: 200px;
+         
 }
 .img9{
     height: 180px;
@@ -469,6 +470,7 @@
     text-align: center;
     height: 200px;
     width: 200px;
+    list-style: none;
 }
 .img12{
     height: 180px;
@@ -478,7 +480,6 @@ img:hover {
     transform: scale(1.2);
     border-radius: 1.1em;
     box-shadow: 30px 30px 25px;
-<<<<<<< HEAD
 }
 .img20{
     list-style: none;
@@ -490,6 +491,41 @@ img:hover {
     height: 200px;
     width: 190px;
 }
-=======
-  }
->>>>>>> 6121eb4de82dc5924d36d405448cc1827e1809cc
+.hom{
+    list-style: none;
+    margin-left: -70px;
+    margin-top: 5px;
+    border: solid 2px;
+    margin-right: 170px;
+    text-align: center;
+    position: absolute;
+    height: 180px;
+    width: 190px;
+    cursor: pointer;
+}
+.che{
+    list-style: none;
+    margin-left: 334px;
+    margin-top: 5px;
+    border: solid 2px;
+    margin-right: 170px;
+    text-align: center;
+    position: absolute;
+    height: 180px;
+    width: 200px;
+    cursor: pointer;
+}
+.carri{
+    list-style: none;
+    margin-left: 1px;
+    margin-top: 50px;
+    border: solid 2px;
+    margin-right: 170px;
+    text-align: center;
+    position: absolute;
+    height: 200px;
+    width: 190px;
+    cursor: pointer;
+    list-style: none;
+}
+
