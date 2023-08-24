@@ -27,4 +27,31 @@ function cambioIzquierda() {
 
 
 }
-moveIzquierda.addEventListener("click",cambioIzquierda);
+
+document.addEventListener("DOMContentLoaded", function () {
+    const chatButton = document.getElementById("chat-button");
+    const chatContainer = document.getElementById("chat-container");
+    const closeButton = document.getElementById("close-button");
+    const messageInput = document.getElementById("message-input");
+    const sendButton = document.getElementById("send-button");
+    const chatMessages = document.getElementById("chat-messages");
+
+    chatButton.addEventListener("click", function () {
+        chatContainer.style.display = "block";
+    });
+
+    closeButton.addEventListener("click", function () {
+        chatContainer.style.display = "none";
+    });
+
+    sendButton.addEventListener("click", function () {
+        const message = messageInput.value;
+        if (message.trim() !== "") {
+            const messageElement = document.createElement("div");
+            messageElement.classList.add("message");
+            messageElement.textContent = message;
+            chatMessages.appendChild(messageElement);
+            messageInput.value = "";
+        }
+    });
+});

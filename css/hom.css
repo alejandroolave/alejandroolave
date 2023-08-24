@@ -367,3 +367,106 @@ img:hover {
     
     
 }
+
+
+
+
+
+/* Estilos para el botón de chat */
+.chat-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+/* Estilos para el contenedor del chat */
+.chat-container {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 300px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+/* Estilos para la cabecera del chat */
+.chat-header {
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* Estilos para el botón de cerrar chat */
+.close-button {
+    cursor: pointer;
+}
+
+/* Estilos para los mensajes del chat */
+.chat-messages {
+    padding: 10px;
+    max-height: 200px;
+    overflow-y: scroll;
+}
+
+/* Estilos para la entrada de texto y el botón */
+.chat-input {
+    margin-top: 780px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    border-top: 1px solid #ccc;
+}
+.chatpp{
+    margin-right: 30px;
+    margin-top: 850px;
+    width: 90px;
+    height: 55px;
+}
+.cerr{
+    width: 50px;
+    height: 50px;
+}
+.b1{
+    font-family: cursive;
+    height: 25px;
+    margin-top: 8px;
+    margin-left: 10px;
+}
+.b2{
+    font-family: cursive;
+    height: 25px;
+    margin-top: 8px;
+    margin-left: 5px;
+}
+
+
+.chat-logo-container {
+    position: relative;
+    display: block;
+}
+
+.tooltip {
+    position: relative;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 5px;
+    border-radius: 3px;
+    opacity: 0;
+    transition: opacity 0.2s;
+    pointer-events: none;
+    font-family: cursive;
+}
+
+.chat-logo-container:hover .tooltip {
+    opacity: 1;
+}
