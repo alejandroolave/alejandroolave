@@ -1,15 +1,13 @@
 *{
-    margin: 0;
     top: 0;
-    background-color: rgb(58, 46, 46);
 }
 .logos{
     margin-top: 700px;
     align-items: center;
     text-align: center;
     display:flex;
-    margin-left: 600px;
-    gap: 20px;
+    margin-left: 500px;
+    gap: 50px;
     cursor: pointer;
 }
 .img1{
@@ -30,5 +28,26 @@
 .img4{
     box-shadow: 15px 10px 15px black;
     width: 200px;
+    height: 200px;
     border: solid 1px black;
+}
+.logos img:hover {
+     transform: scale(1.2);
+}
+.mivideo{
+    position: fixed;
+    width: 100vw;
+    z-index: -1;
+}
+.alert{
+    background-color: aqua;
+}
+.alert{
+	background-color: black;
+	color: white;
+	padding: 20px;
+	text-align: center;
+	font-size: 30px;
+	border-radius: 10px;
+	margin-top: -500px;
 }
