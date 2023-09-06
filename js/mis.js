@@ -1,6 +1,6 @@
 window.onload = function() {
     var div = document.createElement("div");
-    div.innerHTML = "¡Hola! Estas son mis habilidades.";
+    div.innerHTML = "¡Estas son mis habilidades.! ";
     div.classList.add("alert");
     document.body.appendChild(div);
     
