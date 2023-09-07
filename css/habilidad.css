@@ -1,8 +1,9 @@
 *{
     top: 0;
+    margin: 0;
 }
 .logos{
-    margin-top: 780px;
+    margin-top: 500px;
     align-items: center;
     text-align: center;
     display:flex;
