@@ -149,14 +149,14 @@ a{
 }
 .links{
   position: absolute;
-  margin-left: 835px;
-  margin-top: 450px;
+  margin-left: 628px;
+  margin-top: 343px;
 }
 
 .vv{
   position: absolute;
-  margin-left: 1100px;
-  margin-top: 680px;
+  margin-left: 890px;
+  margin-top: 560px;
 }
 
 
@@ -190,6 +190,7 @@ button {
  }
  
  button span {
+  
   position: absolute;
   width: 100%;
   font-size: 15px;

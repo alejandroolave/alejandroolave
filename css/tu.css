@@ -1,153 +1,112 @@
 
-.fuente1{
-    display: flex;
-    margin-top: 15px;
-}
-.fuente2{
-    display: flex;
-    margin-top: 120px;
-}
-.fuente{
-    border: solid 1px;
-    margin-right: 50%;
+.fuente1 a, .fuente2 a, .fuente3 a, .fuente4 a, .fuente5 a, .fuente6 a, .fuente7 a, .fuente8 a {
+    text-decoration: none;
+    font-size: 1em; 
     text-align: center;
-    list-style: none;
-    margin-left: 800px;
-    border-radius: 40% 40% 45%;
-    box-shadow: 10px 15px 25px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1.5em;
-   
+    align-items: center;
 }
+
 .hora{
+    margin-top: -600px;
     margin-left: 1100px;
     list-style: none;
     border: solid 2px;
-    margin-right: 120px;
     text-align: center;
-    width: 390px;
-    height: 390px;
+    width: 250px;
+    height: 250px;
     position: absolute;
     box-shadow: 40px 30px 90px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color: black;
 }
 .imagendereloj{
-    height: 362px;
-    width: 390px;
+    height: 250px;
+    width: 250px;
 }
 .gami{
-    margin-left: 200px;
+    margin-top: 100px;
+    margin-left: 100px;
     list-style: none;
     border: solid 2px rgb(218, 139, 218);
     margin-right: 590px;
     text-align: center;
-    width: 390px;
-    height: 399px;
+    width: 250px;
+    height: 250px;
     background-color: rgb(187, 103, 187);
     box-shadow: 40px 30px 60px violet;
 }
 .imagen2{
-    height: 380px;
-    width: 390px;
+    height: 250px;
+    width: 250px;
 }
 .disney{
-    margin-left: 500px;
+    margin-top: -240px;
+    margin-left: 600px;
     border: solid 2px;
     list-style: none;
     text-align: center;
-    height: 399px;
-    width: 399px;
+    height: 250px;
+    width: 250px;
 }
 .imagendisney{
-    height: 381px;
-    width: 399px;
+    height: 250px;
+    width: 250px;
 }
 .netflix{
-    margin-left: 190px;
+    margin-left: 100px;
     border: solid 2px;
     list-style: none;
     text-align: center;
-    height: 399px;
-    width: 399px;
+    height: 250px;
+    width: 250px;
 }
 .imagennetflix{
-    height: 379px;
-    width: 399px;
-}
-.color{
-    margin-left: 850px;
-    list-style: none;
-    border: solid 2px;
-    border-radius: 40%;
-    text-align: center;
-    margin-right: 950px;
-    font-size: 1.7em;
-    box-shadow: 10px 15px 25px;
+    height: 250px;
+    width: 250px;
 }
 .colo{
     list-style: none;
-    margin-left: 670px;
-    margin-top: 50px;
+    margin-left: 600px;
+    margin-top: -240px;
     border: solid 2px;
     margin-right: 800px;
     text-align: center;
-    height: 370px;
-    width: 370px;
+    height: 250px;
+    width: 250px;
 }
 .imagencolor{
-    height: 350px;
-    width: 370px;
+    height: 250px;
+    width: 250px;
 }
-.span{
-    list-style: none;
-    margin-left: 807px;
-    text-align: center;
-    margin-top: 50px;
-    border: solid 2px;
-    border-radius: 50% 50% 50%;
-    margin-right: 900px;
-    font-size: 1.6em;
-    box-shadow: 10px 15px 25px;
-}
+
 .sam{
     list-style: none;
-    margin-left: 670px;
-    margin-top: 50px;
+    margin-left: 1100px;
+    margin-top: -280px;
     border: solid 2px;
     margin-right: 800px;
     text-align: center;
-    height: 370px;
-    width: 370px;
+    height: 250px;
+    width: 250px;
 }
 .imagenspan{
-    height: 352px;
-    width: 370px;
+    height: 250px;
+    width: 250px;
 }
-.bo{
-    list-style: none;
-    margin-left: 807px;
-    text-align: center;
-    margin-top: 50px;
-    border: solid 2px;
-    border-radius: 50% 50% 50%;
-    margin-right: 900px;
-    font-size: 1.6em;
-    box-shadow: 10px 15px 25px;
-}
+
 .box{
     list-style: none;
-    margin-left: 670px;
-    margin-top: 50px;
+    margin-left: 610px;
+    margin-top: 70px;
     border: solid 2px;
     margin-right: 800px;
     text-align: center;
-    height: 370px;
-    width: 370px;
+    height: 250px;
+    width: 250px;
 }
 .imagenbox{
-    height: 352px;
-    width: 370px;
+    height: 250px;
+    width: 250px;
 }
 .imagen{
     list-style: none;
@@ -160,109 +119,80 @@
     font-size: 1.6em;
     box-shadow: 10px 15px 25px;
 }
-.fuente3{
-    display: flex;
-    margin-top: 10px;
-}
+
 .buques{
     list-style: none;
-    margin-left: 120px;
-    margin-top: 50px;
+    margin-left: 100px;
+    margin-top: -270px;
     border: solid 2px;
     margin-right: 700px;
     text-align: center;
-    height: 370px;
-    width: 370px;
+    height: 250px;
+    width: 250px;
 }
 .imagenbuque{
-    height: 352px;
-    width: 370px;    
+    height: 250px;
+    width: 250px;    
 }
 .conte{
     list-style: none;
-    margin-left: 50px;
-    margin-top: 50px;
+    margin-left: 1100px;
+    margin-top: -270px;
     border: solid 2px;
     margin-right: 240px;
     text-align: center;
-    height: 370px;
-    width: 370px;
+    height: 250px;
+    width: 250px;
 }
 .imagencontainer{
-    height: 352px;
-    width: 370px;
+    height: 250px;
+    width: 250px;
 }
-.tabla{
-    list-style: none;
-    margin-left: 800px;
-    text-align: center;
-    margin-top: 50px;
-    border: solid 2px;
-    border-radius: 50% 50% 50%;
-    margin-right: 900px;
-    font-size: 1.6em;
-    box-shadow: 10px 15px 25px;   
-}
-.fuente4{
-    display: flex;
-    margin-top: 10px;
-}
+
+
 .tablas{
     list-style: none;
-    margin-left: 120px;
-    margin-top: 50px;
+    margin-left: 100px;
+    margin-top: 70px;
     border: solid 2px;
     margin-right: 250px;
     text-align: center;
-    height: 370px;
-    width: 370px; 
+    height: 250px;
+    width: 250px; 
 }
 .imagentabla{
-    height: 352px;
-    width: 370px;
+    height: 250px;
+    width: 250px;
 }
 .tab{
     list-style: none;
-    margin-left: 500px;
-    margin-top: 50px;
+    margin-left: 600px;
+    margin-top: -240px;
     border: solid 2px;
     margin-right: 170px;
     text-align: center;
-    height: 370px;
-    width: 370px;
+    height: 250px;
+    width: 250px;
 }
 .celdas{
-    height: 352px;
-    width: 370px;
+    height: 250px;
+    width: 250px;
 }
-.for{
-    list-style: none;
-    margin-left: 800px;
-    text-align: center;
-    margin-top: 50px;
-    border: solid 2px;
-    border-radius: 50% 50% 50%;
-    margin-right: 900px;
-    font-size: 1.6em;
-    box-shadow: 10px 15px 25px;
-}
-.fuente5{
-    display: flex;
-    margin-top: 10px;
-}
+
+
 .formu{
     list-style: none;
-    margin-left: 100px;
-    margin-top: 50px;
+    margin-left: 1100px;
+    margin-top: -250px;
     border: solid 2px;
     margin-right: 170px;
     text-align: center;
-    height: 370px;
-    width: 370px;
+    height: 300px;
+    width: 300px;
 }
 .imagenformu{
-    height: 352px;
-    width: 370px;
+    height: 250px;
+    width: 250px;
 }
 .inicioo{
     list-style: none;
@@ -271,73 +201,44 @@
     border: solid 2px;
     margin-right: 170px;
     text-align: center;
-    height: 370px;
-    width: 370px;
+    height: 250px;
+    width: 250px;
 }
 .imageninicio{
-    height: 352px;
-    width: 370px;
+    height: 250px;
+    width: 250px;
 }
-.men{
-    list-style: none;
-    margin-left: 800px;
-    text-align: center;
-    margin-top: 50px;
-    border: solid 2px;
-    border-radius: 50% 50% 50%;
-    margin-right: 900px;
-    font-size: 1.6em;
-    box-shadow: 10px 15px 25px;
-   
-}
-.fuente6{
-    display: flex;
-    margin-top: 10px;
-}
+
 .iconos{
     list-style: none;
     margin-left: 100px;
-    margin-top: 50px;
+    margin-top: -250px;
     border: solid 2px;
     margin-right: 170px;
     text-align: center;
-    height: 370px;
-    width: 370px;
+    height: 250px;
+    width: 250px;
     
 }
 .imagenicono{
-    height: 352px;
-    width: 370px;
+    height: 250px;
+    width: 250px;
 }
 .caya{
     list-style: none;
-    margin-left: 600px;
-    margin-top: 50px;
+    margin-left: 1140px;
+    margin-top: -260px;
     border: solid 2px;
     margin-right: 170px;
     text-align: center;
-    height: 370px;
-    width: 370px;
+    height: 250px;
+    width: 250px;
 }
 .imagencalla{
-    height: 352px;
-    width: 370px;
+    height: 250px;
+    width: 250px;
 }
-.posi{
-    list-style: none;
-    margin-left: 800px;
-    text-align: center;
-    margin-top: 50px;
-    border: solid 2px;
-    border-radius: 80% 80% 80%;
-    margin-right: 900px;
-    font-size: 1.5em;
-    box-shadow: 20px 15px 25px;
-}
-.fuente7{
-    display: flex;
-    margin-top: 10px;
-}
+
 .ento{
     list-style: none;
     margin-left: 1px;
@@ -414,10 +315,7 @@
     height: 180px;
     width: 200px;
 }
-.fuente8{
-    display: flex;
-    margin-top: 10px;
-}
+
 .cayu{
     list-style: none;
     margin-left: 2px;
@@ -581,3 +479,6 @@ button {
     background-attachment: fixed;
     font-family: Arial, sans-serif;
 }
+
+
+
