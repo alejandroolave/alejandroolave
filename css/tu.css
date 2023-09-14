@@ -482,3 +482,20 @@ button {
 
 
 
+
+
+
+.folder {
+    cursor: pointer;
+    color: white;
+}
+
+/* Estilo para las listas de enlaces ocultas */
+.folder ul {
+    display: none;
+}
+
+/* Cambia el estilo de la carpeta cuando se abre */
+.folder.open ul {
+    display: block;
+}
