@@ -7,7 +7,7 @@
     align-items: center;
     text-align: center;
     display:flex;
-    margin-left: 450px;
+    margin-left: 250px;
     gap: 50px;
     cursor: pointer;
 }
@@ -87,7 +87,7 @@ button {
     transform: translateY(-2px);
    }
    .bt{
-    margin-left: 900px;
+    margin-left: 700px;
     margin-top: 200px;
    }
    a{
