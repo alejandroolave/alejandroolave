@@ -504,3 +504,15 @@ button {
     width: 80px;
     height: 80px;
 }
+.lap{
+    margin-top: 28px;
+    list-style: none;
+    margin-left: 540px;
+    border: solid 2px;
+    margin-right: 170px;
+    text-align: center;
+    position: absolute;
+    height: 180px;
+    width: 190px;
+    cursor: pointer;
+}
