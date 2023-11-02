@@ -1,34 +1,46 @@
-body {
+*{
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #e3f2fd;
+}
+
+.wraper{
+    width: 65vmin;
+    height: 70vmin;
+    background: #293447;
+    display: flex;
+    flex-direction: column;
     overflow: hidden;
+    border-radius: 5px;
+}
+.game-details{
+    color: #b8c6dc;
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 20px 27px;
+    display: flex;
+    justify-content: space-between;
 }
 
-#background {
-    position: absolute;
-    top: 0;
-    left: 0;
+.play-board{
     width: 100%;
     height: 100%;
-    z-index: -1;
+    background: #212837;
+    display: grid;
+    grid-template: repeat(30, 1fr)/repeat(30, 1fr);
 }
-
-#background img {
-    width: 100%;
-    height: 100%;
+.play-board .food{
+    background-color: red;
 }
-
-#character {
-    width: 50px;
-    height: 100px;
-    background-image: url(https://i.ibb.co/XDFkXMx/spiderman-colgado.png);
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    transition: transform 1s;
-}
-
-button {
-    position: absolute;
-    top: 10px;
-    left: 10px;
+.play-board .head{
+    background-color: turquoise;
 }
