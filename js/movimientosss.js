@@ -1,19 +1,24 @@
 const playBoard = document.querySelector(".play-board");
-const scoreElement = document.querySelector(".score");
+const scoreElement = document.querySelector(".socre");
+const highScoreElemet = document.querySelector(".high-score");
+
+
 
 let gameOver = false ;
-let foodx,foody;
-let snakex =5, snakey = 10;
+let foodx, foody;
+let snakex =1, snakey = 20;
 let snakeBody = [];
 let velocityx = 0, velocityY =0;
 let setIntervalId;
 let score = 0;
 
-let highScore = localStorage.getItem("high-score") || 0;
+let highscore = localStorage.getItem("high-score") || 1;
 
 
 
-const changFoodposition =() => {
+
+
+const changFoodposition = () => {
     foodx = Math.floor(Math.random() *30) +1;
     foody = Math.floor(Math.random() *30) +1;
 }
@@ -27,16 +32,16 @@ const handleGameOver = () => {
 
 
 const changeDirection = (e) =>{
-    if (e.key === "ArrowUp " && velocityY != 1 ){
+    if (e.key === "ArrowUp" && velocityY != 1 ){
         velocityx = 0;
         velocityY = -1 ;
     } else if(e.key === "ArrowDown" && velocityY != -1){
         velocityx = 0;
         velocityY = 1;
-    }else if(e.key === "ArrowLeft" && velocityx != 1){
+    } else if(e.key === "ArrowLeft" && velocityx != 1){
         velocityx = -1;
         velocityY = 0;
-    }else if(e.key === "ArrowRight" && velocityx != -1){
+    } else if(e.key === "ArrowRight" && velocityx != 1){
         velocityx = 1;
         velocityY = 0;
     }
@@ -52,13 +57,16 @@ const initGame = ( ) =>{
         snakeBody.push([foodx, foody]);
         score++;
 
-        highScore = score >= highScore ? score : highScore;
-        localStorage.setItem("high_score", highScore);
-        scoreElement.innerHTML = `score: ${score}`
+        highscore = score >= highscore ? score : highscore;
+        localStorage.setItem("high-score", highscore);
+        scoreElement.innerHTML = `score: ${score}`;
+
+
+        highScoreElemet.innerHTML = `high-score: ${highScore}`;
     }
 
-    for(let i = snakeBody.length -1; i > 0; i--){
-        snakeBody[i] * snakeBody[i - 1];
+    for(let i = snakeBody.length -1; i > 0; i--) {
+        snakeBody[i] = snakeBody[i - 1];
     }
 
     snakeBody[0] = [snakex , snakey];
