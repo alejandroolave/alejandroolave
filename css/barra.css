@@ -1,0 +1,51 @@
+/* Resetear márgenes y rellenos predeterminados para todos los elementos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Incluir bordes y rellenos en el modelo de caja */
+}
+
+/* Estilo para el cuerpo de la página */
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Asegura que el cuerpo ocupe el 100% de la altura de la pantalla */
+    background-image: url(https://www.xtrafondos.com/wallpapers/resized/forza-motorsport-12038.jpg?s=large);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Arial', sans-serif; /* Cambia el tipo de letra a Arial o cualquier otro de tu elección */
+}
+
+/* Estilo para el contenedor de inputs */
+.box-inputs {
+    position: relative;
+    width: 300px;
+    padding: 20px;
+    background-color: #000000; /* Cambia el color de fondo a un tono más oscuro de azul */
+    border-radius: 7px;
+    text-align: center; /* Centra el texto dentro del contenedor */
+    font-size: 1.2em; /* Aumenta el tamaño del texto */
+    color: white;
+}
+
+/* Estilo para los elementos de input */
+input {
+    border: 1px solid #27ae60;
+    border-radius: 5px;
+    width: 100px;
+    font-family: cursive;
+}
+
+/* Estilo para el contenedor de la barra de progreso */
+.sta-Bars {
+    position: relative;
+    width: 500px;
+    margin: 40px 0 0 23px;
+}
+
+/* Resto de los estilos se mantienen igual */
+.col{
+    font-family: cursive;
+    color: white;
+}
