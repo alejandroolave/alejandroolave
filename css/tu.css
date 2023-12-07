@@ -532,3 +532,15 @@ button {
     width: 190px;
     cursor: pointer;
 }
+.barrass{
+    margin-top: 1px;
+    list-style: none;
+    margin-left: 300px;
+    border: solid 2px;
+    margin-right: 170px;
+    text-align: center;
+    position: absolute;
+    height: 180px;
+    width: 190px;
+    cursor: pointer;
+}
