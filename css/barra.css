@@ -11,7 +11,7 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh; /* Asegura que el cuerpo ocupe el 100% de la altura de la pantalla */
-    background-image: url(https://www.xtrafondos.com/wallpapers/resized/forza-motorsport-12038.jpg?s=large);
+    background-image: url(../img/mercedes-amg-gt-s-en-una-pista_2560x1600_xtrafondos.com.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'Arial', sans-serif; /* Cambia el tipo de letra a Arial o cualquier otro de tu elección */
@@ -22,16 +22,22 @@ body {
     position: relative;
     width: 300px;
     padding: 20px;
-    background-color: #000000; /* Cambia el color de fondo a un tono más oscuro de azul */
+    background-color: #000000; /* Color de fondo inicial */
     border-radius: 7px;
-    text-align: center; /* Centra el texto dentro del contenedor */
-    font-size: 1.2em; /* Aumenta el tamaño del texto */
+    text-align: center;
+    font-size: 1.2em;
     color: white;
+    transition: background-color 0.3s ease; /* Agregado para una transición suave */
 }
+
+.box-inputs:hover {
+    background-color: #c80d0d; /* Color de fondo al hacer hover */
+}
+
 
 /* Estilo para los elementos de input */
 input {
-    border: 1px solid #27ae60;
+    border: 1px solid #ae2727;
     border-radius: 5px;
     width: 100px;
     font-family: cursive;
@@ -41,11 +47,9 @@ input {
 .sta-Bars {
     position: relative;
     width: 500px;
-    margin: 40px 0 0 23px;
+    margin: 8px 0 0 53px;
+    color: white;
+    font-family: cursive;
 }
 
 /* Resto de los estilos se mantienen igual */
-.col{
-    font-family: cursive;
-    color: white;
-}
