@@ -24,7 +24,7 @@ a{
   margin-top: 80px;
     background-color: #ffffff;
     color: #fff;
-    font-size: 44px;
+    font-size: 16px;
     border: 0.5px solid rgba(187, 30, 30, 0.1);
     padding-bottom: 8px;
     width: 300px;
@@ -34,7 +34,6 @@ a{
     position: relative;
     will-change: transform;
     transition: all .1s ease-in-out 0s;
-    user-select: none;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)),
       linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0));
     background-position: bottom right, bottom right;
@@ -147,16 +146,16 @@ a{
 
   height: 100vh;
 }
-.links{
+.links {
   position: absolute;
-  margin-left: 628px;
-  margin-top: 343px;
+  transform: translate(20px, 100px);
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
 }
 
 .vv{
   position: absolute;
-  margin-left: 890px;
-  margin-top: 560px;
 }
 
 
@@ -172,7 +171,7 @@ button {
   -webkit-mask-size: 100%;
   cursor: pointer;
   background-color: transparent;
-  transform: translateY(8px)
+  transform: translateY(20px)
  }
  
  button:after {
@@ -428,7 +427,7 @@ button {
   max-width: 5rem;
   position: relative;
   text-shadow: 0 0 0.1em var(--fg-t);
-  transform: rotateZ(-45deg);
+  transform: rotateZ(-95deg);
 }
 
 /* Animations */
@@ -483,5 +482,77 @@ button {
   50%, to {
     background-color: var(--bg);
     clip-path: polygon(0 75%, 100% 75%, 100% 100%, 0 100%);
+  }
+}
+
+
+/* Media Queries */
+@media (max-width: 1200px) {
+  .contenedor {
+      margin: 15px;
+  }
+  .toggle-button button, .delete-button {
+      font-size: 0.9em;
+      padding: 8px 15px;
+  }
+  .pl__text {
+      font-size: 1em;
+  }
+  .links {
+      transform: translate(300px, 200px);
+  }
+}
+
+@media (max-width: 768px) {
+  .contenedor {
+      margin: 10px;
+  }
+  .toggle-button button, .delete-button {
+      font-size: 0.8em;
+      padding: 6px 10px;
+  }
+  .pl {
+      width: 60px;
+      height: 60px;
+  }
+  .pl__dot {
+      width: 8px;
+      height: 8px;
+  }
+  .pl__text {
+      top: 70px;
+      font-size: 0.9em;
+  }
+  .links {
+      position: static;
+      transform: none;
+      margin: 0 auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .contenedor {
+      margin: 5px;
+  }
+  .toggle-button button, .delete-button {
+      font-size: 0.7em;
+      padding: 5px 8px;
+  }
+  .pl {
+      width: 50px;
+      height: 50px;
+  }
+  .pl__dot {
+      width: 6px;
+      height: 6px;
+  }
+  .pl__text {
+      top: 60px;
+      font-size: 0.8em;
+  }
+  .links {
+      position: static;
+      transform: none;
+      margin: 0 auto;
   }
 }

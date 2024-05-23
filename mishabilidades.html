@@ -6,21 +6,77 @@
     <link rel="stylesheet" href="css/habilidad.css">
     <title>Document</title>
 </head>
+<div id="inicial" style="display: none;">
+    <div id="mensaje">
+        <h1>"Frontend developer at your service"</h1>
+        <button onclick="mostrarContenido()">Mira mis habilidades</button>
+    </div>
+</div>
 <body>
-    <div class="logos">
-        <div><img class="img1" src="img/html-5.avif" alt=""></div>
-        <div><img class="img2" src="img/919826.png" alt=""></div>
-        <div><img class="img3" src="img/js-emblem-orange-shield-and-white-text-vector.jpg" alt=""></div>
-        <div><img class="img4" src="img/stock-photo-php-web-development-and-coding.jfif" alt=""></div>
+    <div id="inicial" style="display: none;">
+        <div id="mensaje">
+            <h1>Frontend developer at your service</h1>
+            <button onclick="mostrarContenido()">Mira mis habilidades</button>
+        </div>
     </div>
 
-    <button class="bt"><a href="perfil.html">
-        <svg height="16" width="16" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1024 1024"><path d="M874.690416 495.52477c0 11.2973-9.168824 20.466124-20.466124 20.466124l-604.773963 0 188.083679 188.083679c7.992021 7.992021 7.992021 20.947078 0 28.939099-4.001127 3.990894-9.240455 5.996574-14.46955 5.996574-5.239328 0-10.478655-1.995447-14.479783-5.996574l-223.00912-223.00912c-3.837398-3.837398-5.996574-9.046027-5.996574-14.46955 0-5.433756 2.159176-10.632151 5.996574-14.46955l223.019353-223.029586c7.992021-7.992021 20.957311-7.992021 28.949332 0 7.992021 8.002254 7.992021 20.957311 0 28.949332l-188.073446 188.073446 604.753497 0C865.521592 475.058646 874.690416 484.217237 874.690416 495.52477z"></path></svg>
-        <span>atras</span></a>
-      </button>
+    <div class="cuadros">
+        <div class="cuadro1">
+            <div class="imagen-contenedor">
+                <img src="img/html5.jpg" alt="">
+                <div class="descripcion">HTML (HyperText Markup Language) es el lenguaje estándar para crear páginas web. Es como el esqueleto de una página, proporcionando la estructura básica sobre la que se construyen todos los demás elementos. </div>
+            </div>
+        </div>
+        <div class="cuadro2">
+            <div class="imagen-contenedor">
+                <img src="img/CSSS.png" alt="">
+                <div class="descripcion"> CSS puedo hacer que una página web sea atractiva y fácil de usar, asegurándome de que se vea bien en diferentes dispositivos y tamaños de pantalla. Es una herramienta fundamental para cualquier desarrollador frontend.</div>
+            </div>
+        </div>
+        <div class="cuadro3">
+            <div class="imagen-contenedor">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNAQZpkL_FIBpWC3FuIoEJs1DtZE3ERZ9yJWng-CnaSavFRrsI38gmz5Yr2c3TxdiyaXg&usqp=CAU" alt="">
+                <div class="descripcion">JavaScript es un lenguaje de programación que se utiliza para añadir interactividad y dinamismo a las páginas web. Permite crear animaciones, validar formularios, y manipular el contenido de la página de manera dinámica en respuesta a las acciones del usuario.</div>
+            </div>
+        </div>
+        <div class="cuadro4">
+            <div class="imagen-contenedor">
+                <img src="https://media.dev.to/cdn-cgi/image/width=1080,height=1080,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F096baapsqqt9fks0us99.png" alt="">
+                <div class="descripcion">React es una biblioteca de JavaScript para construir interfaces de usuario. Facilita la creación de componentes reutilizables y la gestión eficiente del estado de la aplicación, permitiendo desarrollar aplicaciones web interactivas y rápidas.</div>
+            </div>
+        </div>
+        <div class="cuadro5">
+            <div class="imagen-contenedor">
+                <img src="img/phpp.webp" alt="">
+                <div class="descripcion">PHP es un lenguaje de scripting del lado del servidor diseñado para el desarrollo web. Se usa para crear páginas web dinámicas e interactivas, permitiendo la comunicación con bases de datos y la generación de contenido dinámico en tiempo real.</div>
+            </div>
+        </div>
+        <div class="cuadro5">
+            <div class="imagen-contenedor">
+                <img src="img/bootstrap-imagen.png" alt="">
+                <div class="descripcion">Bootstrap es un popular framework de desarrollo frontend de código abierto que facilita la creación de sitios web y aplicaciones web receptivas y móviles</div>
+            </div>
+        </div>
+        <div class="cuadro5">
+            <div class="imagen-contenedor">
+                <img src="img/tailwind.png" alt="">
+                <div class="descripcion">Tailwind CSS es un framework de desarrollo frontend que se centra en proporcionar utilidades CSS de bajo nivel que pueden ser combinadas para construir interfaces web personalizadas de manera rápida y eficiente.</div>
+            </div>
+        </div>
+        
+    </div>
+
+    <div class="bot" onclick="toggleSubpantalla()">
+        <img src="img/programador.gif" alt="">
+    </div>
+    
+    <div class="subpantalla" id="subpantalla">
+        <div class="contenido">
+            <span class="cerrar" onclick="toggleSubpantalla()">X</span>
+            <h2>Frontend developer</h2>
+            <p>Como programador frontend, estoy en constante aprendizaje y exploración de diversas tecnologías para mejorar mis habilidades en el diseño y desarrollo web. Utilizo tanto bibliotecas como frameworks populares como Bootstrap, Tailwind CSS y jQuery para agilizar mi flujo de trabajo y mejorar la calidad y eficiencia de mis proyectos. Estoy entusiasmado por seguir aprendiendo y experimentando con estas herramientas, mientras trabajo en convertirme en un desarrollador frontend versátil y competente para el mercado.</p>
+        </div>
+    </div>
 </body>
-<video autoplay muted loop class="mivideo"
- src="c:\Users\APRENDIZ\Downloads\y2mate.com - Anyma  Chris AvantgardeEternitySpeaker Boy Visual Edition_720p.mp4" type="video/mp4">
-tu novegador no soporta html5.</video>
 <script src="js/mis.js"></script>
 </html>
