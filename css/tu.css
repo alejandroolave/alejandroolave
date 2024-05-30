@@ -1,0 +1,131 @@
+body {
+    background-image: url(../img/rr.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; /* Fija la imagen de fondo en la ventana del navegador */
+    margin: 0;
+    padding: 0;
+}
+
+
+.carousel {
+    border: solid white;
+    display: flex;
+    overflow: hidden;
+    width: 80%;
+    margin: 200px auto 0; /* Mover el carrusel hacia abajo */
+    perspective: 1200px;
+}
+
+.carousel-item {
+    width: 200px;
+    height: 150px;
+    margin: 0 20px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.5s;
+}
+
+.carousel-item:hover {
+    animation-play-state: paused;
+}
+
+.carousel-item:nth-child(1) { transform: translateZ(100px); }
+.carousel-item:nth-child(2) { transform: translateZ(50px); }
+.carousel-item:nth-child(3) { transform: translateZ(0); }
+.carousel-item:nth-child(4) { transform: translateZ(-50px); }
+.carousel-item:nth-child(5) { transform: translateZ(-100px); }
+
+.carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.carousel-item {
+    animation: carousel-animation 10s linear infinite;
+}
+
+@keyframes carousel-animation {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+
+/* Estilos para pantallas más pequeñas */
+@media screen and (max-width: 768px) {
+    .carousel {
+        width: 90%; /* Reducir el ancho del carrusel para pantallas pequeñas */
+    }
+
+    .carousel-item {
+        width: 150px; /* Reducir el ancho de las imágenes para pantallas pequeñas */
+        height: 100px; /* Reducir la altura de las imágenes para pantallas pequeñas */
+        margin: 0 5px; /* Reducir el margen lateral para pantallas pequeñas */
+    }
+}
+
+
+
+@keyframes load-loop {
+    0% {
+      background-position: 100%;
+    }
+  
+    40% {
+      background-position: 50%;
+    }
+  
+    50% {
+      background-position: 50%;
+    }
+  
+    90% {
+      background-position: 0%;
+    }
+  
+    100% {
+      background-position: 0%;
+    }
+  }
+  
+  .loader {
+    position: relative;
+    font-family: cursive;
+    display: flex;
+    height: auto;
+    width: auto;
+    letter-spacing: 3px;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 12px;
+    font-size: 1.45em;
+    color: transparent;
+    background: linear-gradient(to right,#fff 33.3%,#008cdd 33.3%, #008cdd 66.6%, #fff 66.6%) no-repeat;
+    background-size: 300%;
+    background-position: 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    animation: infinite 1.4s load-loop ease;
+  }
+  
+  .loader::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: block;
+    background: linear-gradient(to right,#008cdd 33.3%, transparent 33.3% , transparent 66.6%, #008cdd 66.6%) no-repeat;
+    background-size: 300%;
+    background-position: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    animation: infinite 1.4s load-loop ease;
+  }
+
+

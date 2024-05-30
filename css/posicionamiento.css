@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+div{
+     /* margin: 30px;  */
+    padding: 30px;
+    width: 230px;
+    display: inline-block;
+    height: 250px;
+}
+.posicionamiento1{
+    background-color: antiquewhite;
+    position: static;
+    text-align: center;
+    margin: 10px 20px ;
+    box-shadow: 20px 13px 15px antiquewhite;
+
+}
+.posicionamiento2{
+    background-color: darkcyan;
+    margin: 10px 20px ;
+    position: static;
+    text-align: center;
+    box-shadow: 20px 13px 15px darkcyan;
+}
+.posicionamiento3{
+    background-color: violet;
+    margin: 10px 20px ;
+    text-align: center;
+    box-shadow: 20px 13px 15px violet;
+}
+.posicionamiento4{
+    background-color: aquamarine;
+    margin: 10px 20px ;
+    text-align: center;
+    box-shadow: 20px 13px 15px aquamarine;
+}
+div{
+    /* margin: 50px;  */
+    padding: 25px;
+    width: 250px;
+    display: inline-block;
+    height: 250px;
+    
+}
+.box-1-fixed{
+    background-color: beige;
+    position: fixed;
+    bottom:  0;
+    right: 0;
+    margin: 10px;
+    box-shadow: 20px 13px 10px beige;
+
+}
+.box-2-fixed{
+    background-color: rgb(124, 124, 28);
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    padding: 35px;
+    margin: 8px;
+    margin: 10px;
+    box-shadow: 20px 13px 10px rgb(124,124,28);
+}
+.box-3-fixed{
+    position: fixed;
+    right: 0;
+    background-color: aqua;
+    top: 10em;
+    padding: 2px;
+    width: 50px;
+    margin: 10px;
+    box-shadow: 20px 13px 10px rgb(106, 108, 221);
+}
+
+
+p{
+    font-size: 1.5em; 
+    text-align: justify;
+    margin: 50px 80px;
+}
+.pp{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    top: 35px;
+    left: 0;
+    justify-content: right;
+    background-color: rgb(5, 5, 5);
+    text-align: center;
+}
+li{
+    list-style: none;
+    margin: 10px;
+    font-size: 1.5em;
+    color: aliceblue;
+    text-align: center;
+    right: 15px;
+    justify-content: center;
+}

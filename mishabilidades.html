@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/habilidad.css">
+    <title>Document</title>
+</head>
+<div id="inicial" style="display: none;">
+    <div id="mensaje">
+        <h1>"Frontend developer at your service"</h1>
+        <button onclick="mostrarContenido()">Mira mis habilidades</button>
+    </div>
+</div>
+<body>
+    <div id="inicial" style="display: none;">
+        <div id="mensaje">
+            <h1>Frontend developer at your service</h1>
+            <button onclick="mostrarContenido()">Mira mis habilidades</button>
+        </div>
+    </div>
+
+    <div class="cuadros">
+        <div class="cuadro1">
+            <div class="imagen-contenedor">
+                <img src="img/html5.jpg" alt="">
+                <div class="descripcion">HTML (HyperText Markup Language) es el lenguaje estándar para crear páginas web. Es como el esqueleto de una página, proporcionando la estructura básica sobre la que se construyen todos los demás elementos. </div>
+            </div>
+        </div>
+        <div class="cuadro2">
+            <div class="imagen-contenedor">
+                <img src="img/CSSS.png" alt="">
+                <div class="descripcion"> CSS puedo hacer que una página web sea atractiva y fácil de usar, asegurándome de que se vea bien en diferentes dispositivos y tamaños de pantalla. Es una herramienta fundamental para cualquier desarrollador frontend.</div>
+            </div>
+        </div>
+        <div class="cuadro3">
+            <div class="imagen-contenedor">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNAQZpkL_FIBpWC3FuIoEJs1DtZE3ERZ9yJWng-CnaSavFRrsI38gmz5Yr2c3TxdiyaXg&usqp=CAU" alt="">
+                <div class="descripcion">JavaScript es un lenguaje de programación que se utiliza para añadir interactividad y dinamismo a las páginas web. Permite crear animaciones, validar formularios, y manipular el contenido de la página de manera dinámica en respuesta a las acciones del usuario.</div>
+            </div>
+        </div>
+        <div class="cuadro4">
+            <div class="imagen-contenedor">
+                <img src="https://media.dev.to/cdn-cgi/image/width=1080,height=1080,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F096baapsqqt9fks0us99.png" alt="">
+                <div class="descripcion">React es una biblioteca de JavaScript para construir interfaces de usuario. Facilita la creación de componentes reutilizables y la gestión eficiente del estado de la aplicación, permitiendo desarrollar aplicaciones web interactivas y rápidas.</div>
+            </div>
+        </div>
+        <div class="cuadro5">
+            <div class="imagen-contenedor">
+                <img src="img/phpp.webp" alt="">
+                <div class="descripcion">PHP es un lenguaje de scripting del lado del servidor diseñado para el desarrollo web. Se usa para crear páginas web dinámicas e interactivas, permitiendo la comunicación con bases de datos y la generación de contenido dinámico en tiempo real.</div>
+            </div>
+        </div>
+        <div class="cuadro5">
+            <div class="imagen-contenedor">
+                <img src="img/bootstrap-imagen.png" alt="">
+                <div class="descripcion">Bootstrap es un popular framework de desarrollo frontend de código abierto que facilita la creación de sitios web y aplicaciones web receptivas y móviles</div>
+            </div>
+        </div>
+        <div class="cuadro5">
+            <div class="imagen-contenedor">
+                <img src="img/tailwind.png" alt="">
+                <div class="descripcion">Tailwind CSS es un framework de desarrollo frontend que se centra en proporcionar utilidades CSS de bajo nivel que pueden ser combinadas para construir interfaces web personalizadas de manera rápida y eficiente.</div>
+            </div>
+        </div>
+        
+    </div>
+
+    <div class="bot" onclick="toggleSubpantalla()">
+        <img src="img/programador.gif" alt="">
+    </div>
+    
+    <div class="subpantalla" id="subpantalla">
+        <div class="contenido">
+            <span class="cerrar" onclick="toggleSubpantalla()">X</span>
+            <h2>Frontend developer</h2>
+            <p>Como programador frontend, estoy en constante aprendizaje y exploración de diversas tecnologías para mejorar mis habilidades en el diseño y desarrollo web. Utilizo tanto bibliotecas como frameworks populares como Bootstrap, Tailwind CSS y jQuery para agilizar mi flujo de trabajo y mejorar la calidad y eficiencia de mis proyectos. Estoy entusiasmado por seguir aprendiendo y experimentando con estas herramientas, mientras trabajo en convertirme en un desarrollador frontend versátil y competente para el mercado.</p>
+        </div>
+    </div>
+</body>
+<script src="js/mis.js"></script>
+</html>

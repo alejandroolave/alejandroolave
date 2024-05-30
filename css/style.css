@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* css/style.css */
 
 /* Estilos generales */
@@ -673,3 +674,8 @@ footer {
     /* Otras animaciones, si las necesitas, se aplicarían de forma similar a través de JavaScript */
     
     
+=======
+h1 {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+>>>>>>> 8032ba20c7dd9d154c256f2c257bbdf5b1bdc00a

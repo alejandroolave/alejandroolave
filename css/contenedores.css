@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    margin:     0;
+
+}
+
+body {
+    background-color: white
+}
+
+.box-text {
+    color: rgb(0, 0, 0);
+    align-items: center;
+    display: flex;
+
+    justify-content: center;
+    
+}
+
+.contenedor1 {
+    border-radius: 8px;
+    border: 1.5px black solid;
+    justify-content: center;
+    display: flex;
+    margin: 20px;
+    width: 260px;
+    height: 260px;
+    background-color: rgb(188, 185, 190);
+    box-shadow: 40px 20px 38px violet;
+}
+
+.PRIMARIO {
+    justify-content: center;
+    display: flex;
+}
+
+.SEGUNDARIO {
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor2 {
+    border-radius: 8px;
+    border: 1.5px black solid;
+    justify-content: center;
+    margin: 20px;
+    display: flex;
+    width: 260px;
+    height: 260px;
+    background-color: rgb(188, 185, 190);
+
+    box-shadow: 40px 25px 30px greenyellow
+}
+
+.contenedor3 {
+    border-radius: 8px;
+    border: 1.5px black solid;
+    justify-content: center;
+    margin: 20px;
+    display: flex;
+    width: 260px;
+    height: 260px;
+    background-color: rgb(188, 185, 190);
+ 
+    box-shadow: 40px 25px 30px cadetblue;
+}
+
+.TERCEARIO {
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor4 {
+    border-radius: 8px;
+    border: 1.5px black solid;
+    justify-content: center;
+    margin: 20px;
+    display: flex;
+    width: 260px;
+    height: 260px;
+    background-color: rgb(188, 185, 190);
+
+    box-shadow: 40px 30px 25px fuchsia;
+}
+
+.contenedor5 {
+    border-radius: 8px;
+    border: 1.5px black solid;
+    justify-content: center;
+    margin: 20px;
+    display: flex;
+    width: 260px;
+    height: 260px;
+    background-color: rgb(188, 185, 190);
+
+    box-shadow: 40px 30px 25px gold;
+}
+
+.contenedor6 {
+    border-radius: 8px;
+    border: 1.5px black solid;
+    justify-content: center;
+    margin: 20px;
+    display: flex;
+    width: 260px;
+    height: 260px;
+    background-color: rgb(188, 185, 190);
+
+    box-shadow: 40px 30px 25px lightpink;
+}
