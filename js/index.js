@@ -101,7 +101,7 @@ function fijarProyecto(id) {
     var srcMap = {
         'proyecto1': 'movimientos.html',
         'proyecto2': 'indexx.html',
-        'proyecto3': 'https://enlace/proyecto3',
+        'proyecto3': 'carta.html',
         'proyecto4': 'https://enlace/proyecto4',
         'proyecto5': 'https://enlace/proyecto5'
     };

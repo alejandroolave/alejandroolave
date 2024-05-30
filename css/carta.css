@@ -1,0 +1,207 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   background-color: black;
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+.titulodebienvenida{
+    font-size: 2.8em;
+}
+
+
+
+
+.segundop {
+    height: 100vh; /* Esto asegura que la sección ocupe toda la altura de la ventana del navegador */
+    display: flex;
+    justify-content: center;
+    background-color: rgba(81, 31, 174, 0.68);
+    color: white;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+
+.tercerp {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    text-align: center;
+}
+
+.form-content {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    transition: box-shadow 0.3s ease; /* Transición de la sombra */
+}
+
+.form-content:hover {
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3); /* Aumenta la sombra al pasar el ratón */
+}
+
+/* Estilos para los elementos del formulario */
+.form-content label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.form-content input[type="text"],
+.form-content input[type="number"],
+.form-content button {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.form-content button {
+    background-color: #4CAF50; /* Color de fondo verde */
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.form-content button:hover {
+    background-color: #45a049; /* Cambia el color de fondo al pasar el ratón */
+}
+
+
+
+
+
+.cuartop {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f3f3f3; /* Fondo para el efecto de página */
+    padding: 20px;
+    overflow: hidden; /* Para ocultar el desbordamiento del contenido */
+}
+
+.paper-background {
+    position: relative;
+    width: 80%; /* Ancho de la página */
+    max-width: 800px; /* Ancho máximo de la página */
+    padding: 20px;
+    background-color: #fff; /* Fondo de la página */
+    border-radius: 10px; /* Bordes redondeados para el efecto de página */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave para el efecto de página */
+}
+
+.paper-background::before {
+    content: '';
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    width: calc(100% + 40px); /* Ancho extendido para los "bordes doblados" */
+    height: 20px; /* Altura de los "bordes doblados" */
+    background-color: #fff; /* Color del "borde doblado" */
+    border-top-left-radius: 10px; /* Bordes redondeados para el "borde doblado" */
+    border-top-right-radius: 10px; /* Bordes redondeados para el "borde doblado" */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave para el "borde doblado" */
+}
+
+
+
+
+
+.quintop{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    text-align: center;
+}
+
+
+
+.welcome-content {
+    padding: 20px;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.countdown-content {
+    font-size: 24px;
+}
+
+
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.form-content {
+    font-size: 24px;
+}
+
+
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.guest-list-content {
+    font-size: 24px;
+}
+
+
+
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.location-content {
+    font-size: 24px;
+}

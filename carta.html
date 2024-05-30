@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/carta.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="welcome-content">
+            <h1 class="titulodebienvenida">Bienvenidos a Nuestro Matrimonio</h1>
+            <p>Estamos muy emocionados de compartir este momento especial con ustedes.</p>
+            
+        </div>
+    </div>
+
+
+    <div class="segundop">
+        <div class="countdown-content">
+            <h2>Cuenta Regresiva</h2>
+            <div id="clock"></div>
+        </div>
+    </div>
+
+
+    <div class="tercerp">
+        <div class="form-content">
+            <h2>Confirmar Asistencia</h2>
+            <form id="rsvpForm">
+                <label for="name">Nombre del Invitado Principal:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+                <label for="guests">Número de acompañantes:</label><br>
+                <input type="number" id="guests" name="guests" required><br><br>
+                <button type="submit">Confirmar</button>
+            </form>
+        </div>
+    </div>
+
+
+    <div class="cuartop">
+        <div class="paper-background">
+            <div class="guest-list-content">
+        <div class="guest-list-content">
+            <h2>Lista de Asistentes</h2>
+            <ul id="guestList"></ul>
+        </div>
+        </div>
+        </div>
+    </div>
+    
+</body>
+<script src="js/carta.js"></script>
+</html>
