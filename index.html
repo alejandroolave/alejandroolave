@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div id="scroll-up" class="scroll-btn"><i class="fas fa-chevron-up"></i></div>
+    <div id="scroll-down" class="scroll-btn"><i class="fas fa-chevron-down"></i></div>
+
+    <div id="preloader">
+        <div class="tv-container">
+            <div class="tv-frame">
+                <div class="tv-screen">
+                    <img src="https://i.pinimg.com/originals/83/91/88/839188247607d31fd941845fff00364f.gif" alt="Animación" class="gif">
+                    <div class="title">Frontend Developer</div>
+                </div>
+            </div>
+            <div class="tv-stand"></div>
+        </div>
+    </div>
+
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre-mi">Sobre Mí</a></li>
+                <li><a href="#portafolio">Portafolio</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="inicio">
+        <div class="intro">
+            <h1>Bienvenido a mi Portafolio</h1>
+            <a href="#portafolio" class="btn">Ver mis proyectos</a>
+        </div>
+    </section>
+    <section id="sobre-mi">
+        <div class="tiur">
+            <h1>mis habilidades</h1>
+        </div>
+        <div class="phoneContainer">
+            <div class="screen">
+                <div class="camera"></div>
+                <div class="appsContainer">
+                    <div class="widgets">
+                        <div class="one"></div>
+                        <div class="dos">
+                            <img class="fotomm" src="https://media3.giphy.com/media/hwI96smfxYednxbKVo/200w.gif?cid=82a1493bvbsmc1mptd3478hcvvpv1pfilggs3daagemyyvll&ep=v1_gifs_related&rid=200w.gif&ct=g" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><br><br>
+        <div class="cuadros-container">
+            <div class="cuadro" onmouseover="mostrarTitulo(this)" onmouseout="ocultarTitulo(this)">
+                <img class="imagen" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsubI1xnS2EsbFC7IKOtHXy3o2yp5zNGHX8-mLk-0nVw&s" alt="Imagen 1">
+                <span class="titulo">html</span>
+            </div>
+            <div class="cuadro" onmouseover="mostrarTitulo(this)" onmouseout="ocultarTitulo(this)">
+                <img class="imagen" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png" alt="Imagen 2">
+                <span class="titulo">css</span>
+            </div>
+            <div class="cuadro" onmouseover="mostrarTitulo(this)" onmouseout="ocultarTitulo(this)">
+                <img class="imagen" src="https://ayudawp.com/wp-content/uploads/2017/01/javascript-logo-escudo.png " alt="Imagen 3">
+                <span class="titulo">javascript</span>
+            </div>
+            <div class="cuadro" onmouseover="mostrarTitulo(this)" onmouseout="ocultarTitulo(this)">
+                <img class="imagen" src="https://zeroheight-wordpress-uploads.s3.amazonaws.com/wp-content/uploads/2023/01/small-icon_react-2.png" alt="Imagen 4">
+                <span class="titulo">react</span>
+            </div>
+            <div class="cuadro" onmouseover="mostrarTitulo(this)" onmouseout="ocultarTitulo(this)">
+                <img class="imagen" src="https://kinsta.com/es/wp-content/uploads/sites/8/2018/05/PHP_Feature-Image.jpg" alt="Imagen 4">
+                <span class="titulo">php</span>
+            </div>
+            
+        </div>
+    </section>
+      <!-- Elemento de pantalla emergente -->
+      <div class="popup" id="popup">
+        <p>Me considero un desarrollador frontend creativo y orientado al detalle, siempre buscando formas de mejorar la experiencia del usuario y el diseño estético de mis proyectos. Estoy constantemente aprendiendo y explorando nuevas técnicas y tendencias en el mundo del desarrollo web para mantenerme actualizado y ofrecer resultados de alta calidad.</p>
+        <span class="close-btn" onclick="closePopup()">X</span>
+      </div>
+      
+
+      <section id="portafolio">
+        <h2>Mis Proyectos</h2>
+        <div class="proyectos">
+            <div class="proyecto" id="proyecto1" onclick="fijarProyecto('proyecto1')">
+                <img src="./img/sonic.jpg" alt="Proyecto 1" class="proyecto-img">
+                <h3>Proyecto 1</h3>
+            </div>
+            <div class="proyecto" id="proyecto2" onclick="fijarProyecto('proyecto2')">
+                <img src="https://png.pngtree.com/thumb_back/fh260/background/20230516/pngtree-wolfs-full-hd-wallpaper-art-wallpaper-1920x1080-1080p-image_2571308.jpg" alt="Proyecto 2" class="proyecto-img">
+                <h3>Proyecto 2</h3>
+            </div>
+            <div class="proyecto" id="proyecto3" onclick="fijarProyecto('proyecto3')">
+                <img src="ruta/a/imagen3.jpg" alt="Proyecto 3" class="proyecto-img">
+                <h3>Proyecto 3</h3>
+            </div>
+            <div class="proyecto" id="proyecto4" onclick="fijarProyecto('proyecto4')">
+                <img src="ruta/a/imagen4.jpg" alt="Proyecto 4" class="proyecto-img">
+                <h3>Proyecto 4</h3>
+            </div>
+            <div class="proyecto" id="proyecto5" onclick="fijarProyecto('proyecto5')">
+                <img src="ruta/a/imagen5.jpg" alt="Proyecto 5" class="proyecto-img">
+                <h3>Proyecto 5</h3>
+            </div>
+        </div><br>
+    </section>
+
+    <div id="fullScreenOverlay" class="fullscreen-overlay" onclick="cerrarFullScreen()">
+        <iframe id="fullScreenFrame" class="fullscreen-frame"></iframe>
+        <button class="close-btn" onclick="cerrarFullScreen()">Cerrar</button>
+    </div>
+
+    
+    
+    
+    
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="cerrarModal()">&times;</span>
+            <div id="modal-body"></div>
+        </div>
+    </div>
+    <div class="robot-container" id="robot">
+        <img src="https://i.gifer.com/3q63.gif" alt="Robot" class="robot-img">
+        <div class="tooltip">Contáctame</div>
+    </div>
+    <script src="js/index.js"></script>
+</body>
+</html>

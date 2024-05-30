@@ -1,0 +1,65 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.album {
+    display: flex;
+    flex-wrap: wrap; /* Permite que las imágenes se envuelvan a la siguiente fila */
+    gap: 10px; /* Espacio entre las imágenes */
+    padding: 20px; /* Espacio alrededor del álbum */
+    justify-content: center; /* Centra las imágenes horizontalmente */
+}
+
+.item {
+    position: relative;
+    overflow: hidden;
+    flex: 0 0 calc(20% - 20px); /* Tamaño fijo para cada imagen, ajusta según sea necesario */
+    max-width: calc(20% - 20px); /* Tamaño máximo para cada imagen */
+}
+
+.item img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease; /* Transición suave al hacer hover */
+}
+
+.item:hover img {
+    transform: scale(1.1); /* Escalar la imagen al hacer hover */
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo semi-transparente */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px; /* Espacio alrededor del botón */
+    box-sizing: border-box; /* Incluye el padding en el tamaño total */
+    opacity: 0; /* Oculta el overlay inicialmente */
+    transition: opacity 0.3s ease; /* Transición suave al hacer hover */
+}
+
+.item:hover .overlay {
+    opacity: 1; /* Muestra el overlay al hacer hover */
+}
+
+.overlay button {
+    background-color: #fff; /* Color de fondo del botón */
+    color: #000; /* Color del texto del botón */
+    border: none;
+    padding: 5px 10px; /* Espacio interno del botón */
+    text-decoration: none;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Transición suave al hacer hover */
+}
+
+.overlay button:hover {
+    background-color: #ccc; /* Cambia el color de fondo del botón al hacer hover */
+}

@@ -1,0 +1,675 @@
+/* css/style.css */
+
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: background-color 0.5s, color 0.5s;
+    position: relative; /* Añade posición relativa para permitir el posicionamiento absoluto del footer */
+}
+
+#inicio {
+    background-image: url('../img/rr.gif');
+    background-size: cover; /* Hace que la imagen cubra todo el contenedor */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-position: center; /* Centra la imagen dentro del contenedor */
+}
+
+header {
+    background-color: #161616;
+    color: rgb(248, 0, 0);
+    padding: 1rem;
+    text-align: center; /* Centra el contenido del encabezado */
+}
+header a:hover {
+    color: #25a914; /* Cambia el color de los enlaces al pasar el mouse */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Centra los elementos del menú horizontalmente */
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    transition: background 0.3s;
+}
+
+nav ul li a:hover {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+}
+
+/* Secciones */
+#inicio, #sobre-mi, #portafolio{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#sobre-mi {
+    background: linear-gradient(135deg, #847f7f, #212121); /* Gradiente de colores claros */
+    padding: 2rem; /* Ajusta el padding según sea necesario */
+}
+
+
+
+.intro {
+    color: black;
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+
+.intro h1 {
+    font-size: 3rem;
+    margin-bottom: 5rem;
+    color: rgb(38, 188, 48);
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.715); /* Resplandor suave en blanco */
+}
+
+
+.btn {
+    padding: 0.8rem 2rem;
+    background-color: #1ea325;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background-color: #000000;
+}
+
+#portafolio .proyectos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.proyecto {
+    background: #f8f9fa;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+}
+
+.proyecto:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    background-color: #c22323;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+.social {
+    margin-top: 1rem;
+}
+
+.social a {
+    color: white;
+    margin: 0 0.5rem;
+    font-size: 1.5rem;
+    transition: color 0.3s;
+}
+
+.social a:hover {
+    color: #ccc;
+}
+
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10000;
+    overflow: hidden; /* Oculta el desbordamiento */
+}
+
+.tv-container {
+    position: relative;
+    text-align: center;
+}
+
+.tv-frame {
+    width: 500px;
+    height: 300px;
+    background: #333;
+    border: 16px solid #666;
+    border-radius: 12px;
+    position: relative;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+}
+
+.tv-frame::before {
+    content: '';
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    width: 30px;
+    height: 6px;
+    background: #333;
+    border-radius: 3px;
+    transform: translateX(-50%);
+}
+
+.tv-frame::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    width: 60px;
+    height: 6px;
+    background: #333;
+    border-radius: 3px;
+    transform: translateX(-50%);
+}
+
+.tv-screen {
+    width: 100%;
+    height: 100%;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    box-shadow: 0 0 15px rgba(0, 255, 0, 0.5);
+    position: relative;
+    overflow: hidden;
+}
+
+.tv-stand {
+    width: 100px;
+    height: 10px;
+    background: #333;
+    margin: 20px auto 0;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.tv-stand::before {
+    content: '';
+    width: 60px;
+    height: 10px;
+    background: #333;
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.gif {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    animation: fade-in 1s 2s forwards; /* Aparece junto con el título */
+}
+
+.title {
+    position: absolute;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    opacity: 0;
+    animation: fade-in 1s 2s forwards, color-change 3s infinite;
+}
+
+@keyframes fade-out {
+    0% { opacity: 1; }
+    100% { opacity: 0; }
+}
+
+@keyframes fade-in {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+@keyframes color-change {
+    0% { color: #fff; }
+    25% { color: #f00; }
+    50% { color: #0f0; }
+    75% { color: #00f; }
+    100% { color: #fff; }
+}
+
+
+
+/* Ajustes para las flechas de scroll */
+.scroll-btn {
+    position: fixed;
+    bottom: 20px;
+    font-size: 24px;
+    color: #000000;
+    cursor: pointer;
+    transition: opacity 0.3s;
+    z-index: 10000;
+}
+
+.scroll-btn:hover {
+    opacity: 0.7;
+}
+
+#scroll-up {
+    right: 20px;
+    display: none; /* Inicialmente oculto */
+}
+
+#scroll-down {
+    left: 20px;
+}
+
+
+
+
+
+
+.proyectos {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.proyecto {
+    position: relative;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 200px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.proyecto img.proyecto-img {
+    width: 100%;
+    height: auto;
+}
+
+.fullscreen-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 1000;
+    justify-content: center;
+    align-items: center;
+}
+
+.fullscreen-frame {
+    width: 80%;
+    height: 80%;
+    border: none;
+}
+
+.close-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background: #e50f0f;
+    box-shadow: 0 0 40px red;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+.phoneContainer {
+    width: 185px;
+    height: 350px;
+    background-color: black;
+    border-radius: 20px;
+    position: relative;
+  }
+  
+  .screen {
+    width: 180px;
+    height: 300px;
+    background-image: url(https://i.pinimg.com/originals/c7/0b/c8/c70bc8bdeaf0edf3721af4a5299a91cb.gif);
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    position: absolute;
+    top: 10px;
+    bottom: 2px;
+    right: 2px;
+    left: 2px;
+    box-sizing: border-box;
+  }
+  
+  .camera {
+    width: 80px;
+    background-color: black;
+    position: absolute;
+    height: 20px;
+    top: 4%;
+    right: 50%;
+    transform: translate(50%, -50%);
+    border-radius: 25px;
+    transition: 0.3s;
+    animation-name: callTransition;
+    animation-duration: 1.9s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+  }
+  
+  @keyframes callTransition {
+    15% {
+      width: 40px;
+    }
+  
+    95% {
+      width: 95px;
+      background-color: rgb(189, 189, 207);
+    }
+  }
+  
+  .camera:before {
+    content: "";
+    width: 15px;
+    height: 15px;
+    background-color: rgb(19, 19, 51);
+    position: absolute;
+    border-radius: 50%;
+    left: 5px;
+    top: 2px;
+  }
+  
+  .camera:after {
+    content: "";
+    width: 5px;
+    height: 5px;
+    background-color: rgb(255, 0, 0);
+    position: absolute;
+    border-radius: 50%;
+    right: 5px;
+    top: 6px;
+  }
+  
+  .appsContainer {
+    margin-top: 40px;
+    position: absolute;
+    right: 50%;
+    top: 40%;
+    transform: translate(50%, -50%);
+  }
+  
+  
+  .one {
+    width: 100%; /* Ancho del palito horizontal */
+    height: 4px; /* Grosor del palito horizontal */
+    background-color: white; /* Color del palito horizontal */
+    position: absolute;
+    margin-top: 270px;
+    left: 0;
+    border-radius: 2px;
+    cursor: pointer;
+  }
+
+  .dos {
+    /* Estilos para el cuadro dos */
+    width: 150px; /* Ajustar según sea necesario */
+    height: 250px; /* Ajustar según sea necesario */
+    background-color: rgba(255, 255, 255, 0.651); /* Color de fondo del cuadro dos */
+    border-radius: 10px; /* Bordes redondeados */
+    cursor: pointer; /* Cursor apuntando */
+  }
+  
+  .fotomm{
+    width: 150px;
+    height: 250px;
+  }
+  
+  
+  .menuBar .twoApp:not(:last-child) {
+    margin-right: 10px;
+  }
+  
+  
+
+
+
+
+
+
+
+
+
+  /* Estilos para la pantalla emergente */
+  .popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    display: none; /* Inicialmente oculta */
+  }
+
+  .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+  }
+
+  @keyframes cambiarSombras {
+    0% {
+        text-shadow: 
+          0 0 5px #FF0000, /* Sombra roja */
+          0 0 5px #00FF00, /* Sombra verde */
+          0 0 5px #0000FF, /* Sombra azul */
+          0 0 5px #FFFF00, /* Sombra amarilla */
+          0 0 5px #FF00FF; /* Sombra magenta */
+    }
+    25% {
+        text-shadow: 
+          0 0 5px #FF00FF, /* Sombra magenta */
+          0 0 5px #FF0000, /* Sombra roja */
+          0 0 5px #00FF00, /* Sombra verde */
+          0 0 5px #0000FF, /* Sombra azul */
+          0 0 5px #FFFF00; /* Sombra amarilla */
+    }
+    50% {
+        text-shadow: 
+          0 0 5px #FFFF00, /* Sombra amarilla */
+          0 0 5px #FF00FF, /* Sombra magenta */
+          0 0 5px #FF0000, /* Sombra roja */
+          0 0 5px #00FF00, /* Sombra verde */
+          0 0 5px #0000FF; /* Sombra azul */
+    }
+    75% {
+        text-shadow: 
+          0 0 5px #0000FF, /* Sombra azul */
+          0 0 5px #FFFF00, /* Sombra amarilla */
+          0 0 5px #FF00FF, /* Sombra magenta */
+          0 0 5px #FF0000, /* Sombra roja */
+          0 0 5px #00FF00; /* Sombra verde */
+    }
+    100% {
+        text-shadow: 
+          0 0 5px #00FF00, /* Sombra verde */
+          0 0 5px #0000FF, /* Sombra azul */
+          0 0 5px #FFFF00, /* Sombra amarilla */
+          0 0 5px #FF00FF, /* Sombra magenta */
+          0 0 5px #FF0000; /* Sombra roja */
+    }
+}
+
+.tiur h1 {
+    animation: cambiarSombras 5s infinite;
+    font-family: 'Arial', sans-serif;
+}
+
+
+.cuadros-container {
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.457);
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.cuadros-container:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-color: blue;
+}
+
+.cuadro {
+    position: relative;
+    margin: 70px;
+    border-radius: 100%;
+}
+
+.titulo {
+    display: none;
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 5px;
+    font-size: 12px;
+    border-radius: 3px;
+}
+
+.cuadro:hover .titulo {
+    display: block;
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.imagen {
+    width: 150px;
+    height: 170px;
+    border-radius: 20px;
+    transition: transform 0.3s, box-shadow 0.3s; /* Agrega una transición para el movimiento y el efecto de sombra */
+}
+
+.cuadro:hover .imagen {
+    transform: scale(1.1); /* Aumenta ligeramente el tamaño de la imagen */
+    box-shadow: 0 0 40px rgb(0, 0, 0); /* Agrega un efecto de sombra */
+}
+
+
+
+
+
+ .whatsapp-link {
+    font-size: 2.0em;
+        display: inline-block;
+        transition: transform 0.3s, color 0.3s;
+    }
+
+    .whatsapp-link:hover {
+        color: #18d45d; /* Cambia el color al pasar el mouse */
+        transform: scale(1.9); /* Aumenta ligeramente el tamaño al pasar el mouse */
+    }
+
+
+
+
+
+
+
+
+
+
+
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+    }
+    
+    .robot-container {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        cursor: pointer;
+        visibility: hidden;
+        opacity: 0;
+        z-index: 1000;
+        transition: opacity 0.3s, transform 0.3s;
+    }
+    
+    .robot-container.show {
+        visibility: visible;
+        opacity: 1;
+    }
+    
+    .robot-img {
+        width: 120px; /* Ajusta el tamaño de acuerdo a tu imagen */
+        height: auto; /* Mantén la proporción */
+    }
+    
+    .tooltip {
+        position: absolute;
+        bottom: 50%;
+        right: 110px;
+        transform: translateY(50%);
+        background-color: #555;
+        color: #fff;
+        padding: 5px 10px;
+        border-radius: 4px;
+        font-size: 0.8rem;
+        white-space: nowrap;
+        visibility: hidden;
+        opacity: 0;
+        transition: opacity 0.3s;
+    }
+    
+    .robot-container:hover .tooltip {
+        visibility: visible;
+        opacity: 1;
+    }
+    
+    /* Otras animaciones, si las necesitas, se aplicarían de forma similar a través de JavaScript */
+    
+    
